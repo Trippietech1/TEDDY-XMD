@@ -2,7 +2,7 @@
   "name": "TEDDY-XMD",
   "description": "Javascript WhatsApp bot made by novaxmd",
   "logo": "https://files.catbox.moe/jsqqne.jpg",
-  "keywords": ["NOVA-XMD"],
+  "keywords": ["TEDDY~"],
   "success_url": "/",
   "stack": "container",
   "env": {
@@ -64,7 +64,7 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY NOVA-XMD 💗*"
+      "value": "*SEEN YOUR STATUS BY TEDDY-XMD bot💗*"
     },
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
