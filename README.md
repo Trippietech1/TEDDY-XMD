@@ -24,7 +24,7 @@
 
 > To deploy, generate your session ID from the link below:
 <p align="left">
-  <a href="https://pair-bot-ckr6.onrender.com/">
+  <a href="https://pair-teddy-xmd-bot-ec2e636aac37.herokuapp.com/">
     <img src="https://img.shields.io/badge/%F0%9F%9A%80%20GET%20PAIR%20CODE%20WEB-ffcc00?style=for-the-badge"/>
   </a>
 </p>
