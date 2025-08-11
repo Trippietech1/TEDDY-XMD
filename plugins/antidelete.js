@@ -61,7 +61,7 @@ ezra({
       }
 
       const senderId = msg.key.participant.split('@')[0];
-      const caption = ` Anti-delete-message by ☢️ JEEPERS CREEPER-XMD XFORCE☢️\nMessage de @${senderId}`;
+      const caption = ` Anti-delete-message by ☢️ TEDDY XMD☢️\nMessage de @${senderId}`;
       const imageCaption = { image: { url: './media/deleted-message.jpg' }, caption, mentions: [msg.key.participant] };
 
       await zk.sendMessage(idBot, imageCaption);

@@ -4,10 +4,10 @@ const { ezra } = require("../fredi/ezra");
 
 ezra({ nomCom: "channel", reaction: "💐", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
     console.log("Commande saisie !!!s");
-    let z = 'Salut je m\'appelle JEEPERS CREEPER-XMD* \n\n ' + 'je suis un bot Whatsapp Multi-appareil voici la chaîne';
-    let d = ' developpé par *sir bravin*';
+    let z = 'Salut je m\'appelle TEDDY-XMD* \n\n ' + 'je suis un bot Whatsapp Multi-appareil voici la chaîne';
+    let d = ' developpé par *Teddy Tech*';
     let varmess = z + d;
-    var lien = 'https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g';  // Remplacez cet URL par le lien que vous souhaitez envoyer
+    var lien = 'https://whatsapp.com/channel/0029Vb6NveDBPzjPa4vIRt3n';  // Remplacez cet URL par le lien que vous souhaitez envoyer
     await zk.sendMessage(dest, { text: varmess + "\n" + lien });
 });
 

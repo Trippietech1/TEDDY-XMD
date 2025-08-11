@@ -14,14 +14,14 @@ ezra({
 }, async (_0x3258e7, _0x4c4732, _0x13b70c) => {
   console.log("Commande saisie !!!s");
   await _0x4c4732.sendMessage(_0x3258e7, {
-    'text': "Hello 👋\n\nClick on the button below to join the OFFICIAL *JEEPERS CREEPER-XMD* WhatsApp Gruop",
+    'text': "Hello 👋\n\nClick on the button below to join the OFFICIAL *TEDDY-XMD* WhatsApp Group",
     'contextInfo': {
       'externalAdReply': {
         'sourceUrl': "",
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/f0f1wg.jpg",
+        'mediaUrl': "https://files.catbox.moe/a0mj3n.jpg",
         'title': "Join Our WhatsApp Group",
-        'body': "Click to join the official JEEPERS CREEPER-XMD WhatsApp group!"
+        'body': "Click to join the official TEDDY-XMD WhatsApp group!"
       }
     }
   });
@@ -35,14 +35,14 @@ ezra({
 }, async (_0x14c950, _0x346e6b, _0x31cbea) => {
   console.log("Commande saisie !!!s");
   await _0x346e6b.sendMessage(_0x14c950, {
-    'text': "Hello 👋\n\nClick on the button below to Follow the OFFICIAL *JEEPERS CREEPERS-XMD* WhatsApp Channel",
+    'text': "Hello 👋\n\nClick on the button below to Follow the OFFICIAL *TEDDY-XMD* WhatsApp Channel",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g',
+        'sourceUrl': 'https://whatsapp.com/channel/0029Vb6NveDBPzjPa4vIRt3n',
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/4g6ty3.jpg",
+        'mediaUrl': "https://files.catbox.moe/a0mj3n.jpg",
         'title': "Join Our WhatsApp Channel",
-        'body': "Click to join the official JEEPERS CREEPER-XMD WhatsApp channel!"
+        'body': "Click to join the official TEDDY-XMD WhatsApp channel!"
       }
     }
   });
@@ -56,14 +56,14 @@ ezra({
 }, async (_0x14c950, _0x346e6b, _0x31cbea) => {
   console.log("Commande saisie !!!s");
   await _0x346e6b.sendMessage(_0x14c950, {
-    'text': "Hello 👋\n\nClick on the button below to contact the OFFICIAL *JEEPERS CREEPER-XMD* Owner",
+    'text': "Hello 👋\n\nClick on the button below to contact the OFFICIAL *TEDDY-XMD* Owner",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https://wa.link/3rc9x7',
+        'sourceUrl': 'https://wa.me/254799963583',
         'mediaType': 0x1,
         'mediaUrl': "https://files.catbox.moe/lcori6.jpg",
         'title': "Join Our Developer Place",
-        'body': "Click to join the official JEEPERS CREEPER-XMD Owner Inbox!"
+        'body': "Click to join the official TEDDY-XMD Owner Inbox!"
       }
     }
   });
@@ -77,14 +77,14 @@ ezra({
 }, async (_0x14c950, _0x346e6b, _0x31cbea) => {
   console.log("Commande saisie !!!s");
   await _0x346e6b.sendMessage(_0x14c950, {
-    'text': "Hello 👋\n\nClick on the photo below to Follow the OFFICIAL *JEEPERS CREEPER-XMD* Facebook Page",
+    'text': "Hello 👋\n\nClick on the photo below to Follow the OFFICIAL *TEDDY-XMD* Facebook Page",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https://www.facebook.com/bravin126',
+        'sourceUrl': 'https://www.facebook.com/kibetfx',
         'mediaType': 0x1,
         'mediaUrl': "https://files.catbox.moe/7a00n2.jpg",
         'title': "Follow Facebook Page 📄",
-        'body': "Click to join the official Jeepers creepers xmd Facebook Page!"
+        'body': "Click to join the official  Teddy xmd Facebook Page!"
       }
     }
   });
@@ -98,14 +98,14 @@ ezra({
 }, async (_0x14c950, _0x346e6b, _0x31cbea) => {
   console.log("Commande saisie !!!s");
   await _0x346e6b.sendMessage(_0x14c950, {
-    'text': "Hello 👋\n\nClick on the photo below to Follow the OFFICIAL *JEEPERS CREEPER-XMD* Instagram Page",
+    'text': "Hello 👋\n\nClick on the photo below to Follow the OFFICIAL *TEDDY-XMD* Instagram Page",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https://www.instagram.com/bravin126?igsh=MWJvZzBnN3RsYTRsag==',
+        'sourceUrl': 'https://www.instagram.com/kibet_fx1?igsh=MWdrMWdpOGNxbHNvYQ==',
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/ivgtst.jpg",
+        'mediaUrl': "https://files.catbox.moe/a0mj3n.jpg",
         'title': "Follow Instagram Page 📄",
-        'body': "Click to join the official JEEPERS  CREEPERS-XMD Instagram Page!"
+        'body': "Click to join the official TEDDY-XMD Instagram Page!"
       }
     }
   });
@@ -119,14 +119,14 @@ ezra({
 }, async (_0x14c950, _0x346e6b, _0x31cbea) => {
   console.log("Commande saisie !!!s");
   await _0x346e6b.sendMessage(_0x14c950, {
-    'text': "Hello 👋\n\nClick on the photo below to Follow the OFFICIAL *JEEPERS CREEPER-XMD* Threads Page",
+    'text': "Hello 👋\n\nClick on the photo below to Follow the OFFICIAL *TEDDY-XMD* Threads Page",
     'contextInfo': {
       'externalAdReply': {
         'sourceUrl': 'https://www.threads.n
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/28gqcp.jpg"
+        'mediaUrl': "https://files.catbox.moe/a0mj3n.jpg"
         'title': "Follow Threads Page 📄",
-        'body': "Click to join the official JEEPERS CREEPER-XMD Threads Page!"
+        'body': "Click to join the official TEDDY-XMD Threads Page!"
       }
     }
   });
@@ -140,14 +140,14 @@ ezra({
 }, async (_0x14c950, _0x346e6b, _0x31cbea) => {
   console.log("Commande saisie !!!s");
   await _0x346e6b.sendMessage(_0x14c950, {
-    'text': "Hello 👋\n\nClick on the photo below to Follow the OFFICIAL *JEEPERS CREEPER-XMD* TikTok Page",
+    'text': "Hello 👋\n\nClick on the photo below to Follow the OFFICIAL *TEDDY-XMD* TikTok Page",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https://vm.tiktok.com/ZMSB9Lagc/',
+        'sourceUrl': 'https://vm.tiktok.com/Kibetfx1/',
         'mediaType': 0x1,
         'mediaUrl': "https://files.catbox.moe/lvvceg.jpg",
         'title': "Follow TikTok Page 📄",
-        'body': "Click to join the official TOXIC LOVER-MD TikTok Page!"
+        'body': "Click to join the official TEDDY-MD TikTok Page!"
       }
     }
   });
@@ -161,14 +161,14 @@ ezra({
 }, async (_0x14c950, _0x346e6b, _0x31cbea) => {
   console.log("Commande saisie !!!s");
   await _0x346e6b.sendMessage(_0x14c950, {
-    'text': "Hello 👋\n\nClick on the photo below to Join the OFFICIAL *JEEPERS CREEPER-XMD" Telegram Group",
+    'text': "Hello 👋\n\nClick on the photo below to Join the OFFICIAL *TEDDY-XMD" Telegram Group",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https://t.me/+u3zh',
+        'sourceUrl': 'https://t.me/free_net_zone',
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/7a00n2.jpg",
+        'mediaUrl': "https://files.catbox.moe/a0mj3n.jpg",
         'title': "Join Telegram Group📄",
-        'body': "Click to join the official JEEPERS CREEPER-XMD Telegram Group!"
+        'body': "Click to join the official TEDDY-XMD Telegram Group!"
       }
     }
   });
@@ -182,14 +182,14 @@ ezra({
 }, async (_0x14c950, _0x346e6b, _0x31cbea) => {
   console.log("Commande saisie !!!s");
   await _0x346e6b.sendMessage(_0x14c950, {
-    'text': "Hello 👋\n\nClick on the photo below to Subscribe the OFFICIAL *JEEPERS CREEPER-XMD* YouTube Channel",
+    'text': "Hello 👋\n\nClick on the photo below to Subscribe the OFFICIAL *TEDDY-XMD* YouTube Channel",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https://youtube.com/@alonetech-d1u?si=fKytTd4UolhKbaNs',
+        'sourceUrl': 'https://youtube.com/@teddytech2-d1u?si=fKytTd4UolhKbaNs',
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/g2ln7g.jpg",
+        'mediaUrl': "https://files.catbox.moe/a0mj3n.jpg",
         'title': "Follow YouTube Channel📄",
-        'body': "Click to Subscribe the official JEEPERS CREEPERS-XMD YouTube Channel!"
+        'body': "Click to Subscribe the official TEDDY-XMD YouTube Channel!"
       }
     }
   });
@@ -203,14 +203,14 @@ ezra({
 }, async (_0x14c950, _0x346e6b, _0x31cbea) => {
   console.log("Commande saisie !!!s");
   await _0x346e6b.sendMessage(_0x14c950, {
-    'text': "Hello 👋\n\nClick on the photo below to connect the OFFICIAL *JEEPERS CREEPER-XMD* Telegram Inbox",
+    'text': "Hello 👋\n\nClick on the photo below to connect the OFFICIAL *JEEPERS TEDDY-XMD* Telegram Inbox",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https://t.me/,
+        'sourceUrl': 'https://t.me/teddy_md,
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/lvvceg.jpg",
+        'mediaUrl': "https://files.catbox.moe/a0mj3n.jpg",
         'title': "Chating With Owner",
-        'body': "Click to Contact the official JEEPERS CREEPERS-XMD Telegram Inbox!"
+        'body': "Click to Contact the official TEDDY-XMD Telegram Inbox!"
       }
     }
   });

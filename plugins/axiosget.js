@@ -21,7 +21,7 @@ ezra({
       text: news,
       contextInfo: {
         externalAdReply: {
-          title: "JEEPERS CREEPER-XMD TECH NEWS",
+          title: "TEDDY-XMD TECH NEWS",
           body: "keep learning", 
           thumbnailUrl: thumbnail, 
           sourceUrl: conf.GURL, 
@@ -52,7 +52,7 @@ ezra({
         externalAdReply: {
           title: "Bible Reference Required",
           body: "Please provide a book, chapter, and verse.",
-          thumbnailUrl: "https://files.catbox.moe/tq6561.jpg", // Replace with a suitable thumbnail URL
+          thumbnailUrl: "https://files.catbox.moe/a0mj3n.jpg", // Replace with a suitable thumbnail URL
           sourceUrl: conf.GURL,
           mediaType: 1,
           showAdAttribution: true,
@@ -70,7 +70,7 @@ ezra({
           externalAdReply: {
             title: "Invalid Bible Reference",
             body: "Please provide a valid book, chapter, and verse.",
-            thumbnailUrl: "https://files.catbox.moe/fb85p1.jpg", // Replace with a suitable thumbnail URL
+            thumbnailUrl: "https://files.catbox.moe/a0mj3n.jpg", // Replace with a suitable thumbnail URL
             sourceUrl: conf.GURL,
             mediaType: 1,
             showAdAttribution: true,
@@ -81,7 +81,7 @@ ezra({
     
     const data = response.data;
     const messageText = `
-ᕙ⁠ *JEEPERS CREEPER-XMD HOLY BIBLE* ᕗ
+ᕙ⁠ *TEDDY-XMD HOLY BIBLE* ᕗ
 
 ✿⁠ *_WE'RE READING:_* ${data.reference}
 
@@ -98,10 +98,10 @@ ezra({
       text: messageText,
       contextInfo: {
         externalAdReply: {
-          title: "JEEPERS CREEPER-XMD HOLY BIBLE",
+          title: "TEDDY-XMD HOLY BIBLE",
           body: `We're reading: ${data.reference}`,
           mediaType: 1,
-          thumbnailUrl: "https://files.catbox.moe/8ms53d.jpg", 
+          thumbnailUrl: "https://files.catbox.moe/a0mj3n.jpg", 
           sourceUrl: conf.GURL,
           showAdAttribution: true, 
         },
@@ -115,7 +115,7 @@ ezra({
         externalAdReply: {
           title: "Error Fetching Bible Passage",
           body: "Please try again later.",
-          thumbnailUrl: "https://files.catbox.moe/49def8.jpg", // Replace with a suitable thumbnail URL
+          thumbnailUrl: "https://files.catbox.moe/a0mj3n.jpg", // Replace with a suitable thumbnail URL
           sourceUrl: conf.GURL,
           mediaType: 1,
           showAdAttribution: true,
@@ -153,10 +153,10 @@ ezra({
         text: definitionMessage,
         contextInfo: {
           externalAdReply: {
-            title: "JEEPERS CREEPER-XMD DICTIONARY",
+            title: "TEDDY-XMD DICTIONARY",
             body: `Definition of ${term}`,
             mediaType: 1,
-            thumbnailUrl: "https://files.catbox.moe/fcb1no.jpg", 
+            thumbnailUrl: "https://files.catbox.moe/a0mj3n.jpg", 
             sourceUrl: conf.GURL,
             showAdAttribution: true, 
           },
@@ -187,7 +187,7 @@ ezra({
 
   try {
     // Notify user that pairing is in progress
-    const replyText = "*Wait JEEPERS CREEPERS-XMD is getting your pair code 🍼✅...*";
+    const replyText = "*TEDDY-XMD is getting your pair code 🍼✅...*";
     await repondre(replyText);
 
     // Prepare the API request
@@ -204,7 +204,7 @@ ezra({
         text: pairingCode,
         contextInfo: {
           externalAdReply: {
-            title: "JEEPERS CREEPER-XMD PAIR CODE",
+            title: "TEDDY-XMD PAIR CODE",
             body: "Here is your pairing code:",
             mediaType: 1,
             thumbnailUrl: conf.URL, 
@@ -249,7 +249,7 @@ ezra({
     const thumb = data.image; // Assuming the API returns an 'image' property for the element thumbnail
 
     const formattedMessage = `
-*Davincs Md Element Information:*
+*Teddy xmd Element Information:*
 🚀 *Name:* ${data.name}
 🚀 *Symbol:* ${data.symbol}
 🚀 *Atomic Number:* ${data.atomic_number}
@@ -265,7 +265,7 @@ Regards ${conf.BOT} `;
       text: formattedMessage,
       contextInfo: {
         externalAdReply: {
-          title: "JEEPERS CREEPER-XMD ELEMENT INFORMATION",
+          title: "TEDDY-XMD ELEMENT INFORMATION",
           body: "Here is the information you requested:",
           mediaType: 1,
           thumbnailUrl: thumb,
@@ -324,7 +324,7 @@ ezra({
       text: githubMessage,
       contextInfo: {
         externalAdReply: {
-          title: "JEEPERS CREEPER-XMD GITHUB USER INFO",
+          title: "TEDDY-XMD GITHUB USER INFO",
           body: `Information about ${data.login}`,
           mediaType: 1,
           thumbnailUrl: thumb,
@@ -467,7 +467,7 @@ ezra({
 
 🔗 *URL*: ${con.content_urls.mobile.page}
 
-> Powered by JEEPERS CREEPER-XMD 
+> Powered by TEDDY-XMD 
     `;
     repondre(texa);
   } catch (err) {

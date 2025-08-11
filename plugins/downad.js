@@ -15,8 +15,8 @@ const getContextInfo = (title = '', userJid = '', thumbnailUrl = '') => ({
   forwardingScore: 999,
   isForwarded: true,
   forwardedNewsletterMessageInfo: {
-    newsletterJid: "120363404784570099@newsletter",
-    newsletterName: "JEEPERS CREEPER-XMD",
+    newsletterJid: "120363421104812135@newsletter",
+    newsletterName: "TEDDY-XMD",
     serverMessageId: Math.floor(100000 + Math.random() * 900000),
   },
   externalAdReply: {
@@ -193,7 +193,7 @@ ezra({
 // URL upload command
 ezra({
   nomCom: 'url-link',
-  categorie: "jeepers creeper-xmd-Download",
+  categorie: "teddy-xmd-Download",
   reaction: '👨🏿‍💻'
 }, async (dest, zk, commandOptions) => {
   const { msgRepondu, userJid, ms } = commandOptions;

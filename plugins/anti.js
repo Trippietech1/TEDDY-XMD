@@ -26,7 +26,7 @@ const {
 } = require("../lib/warn");
 ezra({
   'nomCom': "antitag",
-  'categorie': "jeepers bravine-Settings",
+  'categorie': "teddy-Settings",
   'reaction': '⚙️'
 }, async (_0x488cb6, _0x106822, _0x225bda) => {
   const {
@@ -36,7 +36,7 @@ ezra({
     superUser: _0x31bf65
   } = _0x225bda;
   if (!_0x112608 && !_0x31bf65) {
-    return _0x5797cb("jeepers creeper xmd Admin only command.");
+    return _0x5797cb("teddy xmd Admin only command.");
   }
   let _0x1c67de = {};
   if (fs.existsSync("./fredie/tag.json")) {
@@ -52,7 +52,7 @@ ezra({
 });
 ezra({
   'nomCom': "antimentiongroup",
-  'categorie': "sir bravin-Settings",
+  'categorie': "teddy-Settings",
   'reaction': '⚙️'
 }, async (_0x523e64, _0x53f138, _0x1283f5) => {
   const {
@@ -74,5 +74,5 @@ ezra({
   }
   _0x3a4041.ANTI_MENTION_GROUP = _0xe8f006;
   fs.writeFileSync("./fredie/antimention.json", JSON.stringify(_0x3a4041, null, 2));
-  _0xaba24d("✅ jeeper creeper xmd ANTI_MENTION_GROUP is now: *" + _0xe8f006.toUpperCase() + '*');
+  _0xaba24d("✅ teddy xmd ANTI_MENTION_GROUP is now: *" + _0xe8f006.toUpperCase() + '*');
 });

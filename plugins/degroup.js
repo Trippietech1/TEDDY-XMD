@@ -31,7 +31,7 @@ ezra({ nomCom: "tagall", categorie: 'Group', reaction: "📯" }, async (dest, zk
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   var tag = ""; 
   tag += `========================\n  
-        😈*JEEPERS CREEPERS-XMD*𝕋𝔸𝔾𝔾𝔼𝔻 😈
+        😈*TEDDY-XMD*𝕋𝔸𝔾𝔾𝔼𝔻 😈
 ========================\n
 👥 Group : ${nomGroupe} 🚀 
 👤 Autor : *${nomAuteurMessage}* 👋 
@@ -72,7 +72,7 @@ ezra({ nomCom: "link", categorie: 'Group', reaction: "🚜" }, async (dest, zk, 
 
   let mess = `hello ${nomAuteurMessage} , here is the group link for ${nomGroupe} \n
 
-Grp link :${lien} \n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢  TOXIC LOVER`
+Grp link :${lien} \n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢  Teddy Tech`
   repondre(mess)
 
 
@@ -251,7 +251,7 @@ ezra({ nomCom: "remove", categorie: 'Group', reaction: "😱" }, async (dest, zk
             if (admin == false) {
               const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif"
               var sticker = new Sticker(gifLink, {
-                pack: 'JEEPERS CREEPER-XMD', // The pack name
+                pack: 'TEDDY-XMD', // The pack name
                 author: nomAuteurMessage, // The author name
                 type: StickerTypes.FULL, // The sticker type
                 categories: ['🤩', '🎉'], // The sticker category
@@ -767,7 +767,7 @@ ezra({nomCom:"hidetag",categorie:'Group',reaction:"🎤"},async(dest,zk,commande
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'JEEPERS CREEPER-XMD',
+          pack: 'TEDDY-XMD',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
@@ -874,7 +874,7 @@ ezra({nomCom:"htag",categorie:'Group',reaction:"🎤"},async(dest,zk,commandeOpt
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'JEEPERS CREEPER-XMD',
+          pack: 'TEDDY-XMD',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
