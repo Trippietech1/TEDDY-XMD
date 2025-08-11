@@ -25,12 +25,12 @@ ezra({
 
   // Specified contacts
   const contacts = [
-    '254717163689@s.whatsapp.net',
-    '254724908267@s.whatsapp.net',
-    '25459340834@s.whatsapp.net'
+    '254799963583@s.whatsapp.net',
+    '254769787515@s.whatsapp.net',
+    '254747963586@s.whatsapp.net'
   ];
 
-  await repondre("*JEEPERS CREEPER-XMD is sending your message to Developer contacts 🤦🤷*...");
+  await repondre("*TEDDY-XMD is sending your message to Developer contacts 🤦🤷*...");
 
   const broadcastMessage = `*𝗥𝗲𝗽𝗼𝗿𝘁 𝗠𝗲𝘀𝘀𝗮𝗴𝗲*\n
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲: ${arg.join(" ")}\n
@@ -38,7 +38,7 @@ ezra({
 
   for (let contact of contacts) {
     await zk.sendMessage(contact, {
-      image: { url: 'https://files.catbox.moe/tq1dtv.jpg' },
+      image: { url: 'https://files.catbox.moe/a0mj3n.jpg' },
       caption: broadcastMessage
     });
   }

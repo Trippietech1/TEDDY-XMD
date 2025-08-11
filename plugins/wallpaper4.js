@@ -14,9 +14,9 @@ ezra({
   console.log("Commande saisie !!!s");
   await _0x2d564f.sendMessage(_0x4388c3, {
     'image': {
-      'url': 'https://files.catbox.moe/8cxyv5.jpg'
+      'url': 'https://files.catbox.moe/a0mj3n.jpg'
     },
-    'caption': "🚗𝗥𝗮𝗻𝗱𝗼𝗺 𝘄𝗮𝗹𝗹𝗽𝗮𝗽𝗲𝗿 \n\n 🚘Download it and set it to your wallpaper 𝗙𝗿𝗼𝗺 (JEEPERS CREEPER-XMD)🚗MADE BY JEEPERS CREEPER-XMD tech"
+    'caption': "🚗𝗥𝗮𝗻𝗱𝗼𝗺 𝘄𝗮𝗹𝗹𝗽𝗮𝗽𝗲𝗿 \n\n 🚘Download it and set it to your wallpaper 𝗙𝗿𝗼𝗺 (TEDDY-XMD)🚗MADE BY TEDDY TECH"
   });
 });
 console.log("mon test"); 

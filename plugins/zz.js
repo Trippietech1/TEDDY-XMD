@@ -90,15 +90,15 @@ ezra({
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
-      caption: `\n*JEEPERS CREEPER-XMD AUDIOS*\n
+      caption: `\n*TEDDY-XMD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* in KENYA/ ELDORET 
+┊ *Made:* by Teddy-Tech 
 ┊ *Quality:* High
-┊ *Powered:* by JEEPERS CREEPER TECH
+┊ *Powered:* by TEDDY TECH
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/black-spider436/jeepers-creeper-xmd
+🌐 Credits Teddy Tech
 
-> regards sir bravin `,
+> regards Teddy `,
         audio: { url: downloadUrl },
         mimetype: 'audio/mp4',
         contextInfo: {
@@ -114,15 +114,15 @@ ezra({
         },
       },
       {
-      caption: `\n*JEEPERS CREEPER-XMD AUDIOS*\n
+      caption: `\n*TEDDY-XMD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* in KENYA/ELDORET 
+┊ *Made:* by Teddy-Tech 
 ┊ *Quality:* High
-┊ *Powered:* by JEEPERS CREEPER TECH
+┊ *Powered:* by TEDDY TECH
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/black-spider436/jeepers-creeper-xmd
+🌐 Credits Teddy Tech
 
-> regards sir bravin `,
+> regards Teddy `,
         document: { url: downloadUrl },
         mimetype: 'audio/mpeg',
         contextInfo: {
@@ -138,14 +138,14 @@ ezra({
         },
       },
       {
-      caption: `\n*JEEPERS CREEPER-XMD AUDIOS*\n
+      caption: `\n*TEDDY-XMD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* in KENYA/ELDORET 
+┊ *Made:* by TEDDY TECH 
 ┊ *Quality:* High
-┊ *Powered:* by jeepers creepers tech
+┊ *Powered:* by Teddy-Tech
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/black-spider436/jeepers-creeper-xmd
-> regards sir bravin `,
+🌐 Credits Teddy Tech
+> regards Teddy `,
         document: { url: downloadUrl },
         mimetype: 'audio/mp4',
         contextInfo: {
@@ -238,15 +238,15 @@ ezra({
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
-      caption: `\n*JEEPERS CREEPER-XMD AUDIOS*\n
+      caption: `\n*TEDDY-XMD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* in KENYA/ELDORET 
+┊ *Made:* by Teddy-Tech 
 ┊ *Quality:* High
-┊ *Powered:* by JEEPERS CREEPER TECH
+┊ *Powered:* by TEDDY-TECH 
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/black-spider436/jeepers-creeper-xmd
+🌐 Credits Teddy Tech 
 
-> regards sir bravin `,
+> regards Teddy Tech `,
         video: { url: downloadUrl },
         mimetype: 'video/mp4',
         contextInfo: {
@@ -262,15 +262,15 @@ ezra({
         },
       },
       {
-      caption: `\n*JEEPERS CREEPER-XMD AUDIOS*\n
+      caption: `\n*TEDDY-XMD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* in KENYA/ELDORET 
+┊ *Made:* by Teddy-Tech 
 ┊ *Quality:* High
-┊ *Powered:* by JEEPERS CREEPER TECH
+┊ *Powered:* by TEDDY TECH
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/black-spider436/jeepers-creeper-xmd
+🌐 Credits Teddy Tech
 
-> regards sir bravin `,
+> regards Teddy Tech `,
         document: { url: downloadUrl },
         mimetype: 'video/mp4',
         contextInfo: {

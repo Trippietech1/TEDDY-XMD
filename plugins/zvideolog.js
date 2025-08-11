@@ -5,7 +5,7 @@
 const { ezra } = require("../fredi/ezra");
 const axios = require("axios");
 
-ezra({ nomCom: "videologo", categorie: "JEEPERS CREEPER-XMD-logo", reaction: "🔖" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "videologo", categorie: "TEDDY-XMD-logo", reaction: "🔖" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, arg } = commandeOptions;
   const text = arg.join(" ");
 
@@ -28,10 +28,10 @@ D ☞ tiger 🐯 video logo
     const contextInfo = {
       mentionedJid: [ms.sender], // Mention the sender
       externalAdReply: {
-        title: "JEEPERS CREEPER-XMD",
-        body: "Pambe Kwa, sir bravin",
-        thumbnailUrl: "https://files.catbox.moe/0ql1k8.jpeg",
-        sourceUrl: "https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g",
+        title: "TEDDY-XMD",
+        body: "Credits Teddy",
+        thumbnailUrl: "https://files.catbox.moe/a0mj3n.jpg",
+        sourceUrl: "https://whatsapp.com/channel/0029Vb6NveDBPzjPa4vIRt3n",
         mediaType: 1,
         renderLargerThumbnail: true,
       },
@@ -80,7 +80,7 @@ D ☞ tiger 🐯 video logo
           await zk.sendMessage(dest, {
             video: { url: logoUrl },
             mimetype: "video/mp4",
-            caption: `> *Downloaded by JEEPERS CREEPER-XMD Planet*`,
+            caption: `> *Downloaded by TEDDY-XMD Bot*`,
           }, { quoted: ms });
         }
       }

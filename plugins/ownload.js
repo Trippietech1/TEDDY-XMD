@@ -384,7 +384,7 @@ _Use this info to explore or install the package via terminal_`;
         }, { quoted: msg });
       }
 
-      const caption = `*🔞 THE JEEPERS CREEPER-XMD X-Video Downloader 🥵*\n\n` +
+      const caption = `*🔞 TEDDY-XMD X-Video Downloader 🥵*\n\n` +
                       `• *Title:* ${videoData.title}\n` +
                       `• *Duration:* ${videoData.duration}s\n` +
                       `• *Info:* ${videoData.info}\n` +
@@ -397,8 +397,8 @@ _Use this info to explore or install the package via terminal_`;
           forwardingScore: 1,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363366284524544@newsletter',
-            newsletterName: 'sir bravin',
+            newsletterJid: '120363421104812135@newsletter',
+            newsletterName: 'Teddy',
             serverMessageId: -1
           }
         }
@@ -562,8 +562,8 @@ _Use this info to explore or install the package via terminal_`;
       forwardingScore: 1,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363366284524544@newsletter',
-        newsletterName: 'sir bravin',
+        newsletterJid: '120363421104812135@newsletter',
+        newsletterName: 'Teddy',
         serverMessageId: -1
       }
     };

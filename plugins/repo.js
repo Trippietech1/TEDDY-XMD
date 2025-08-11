@@ -32,15 +32,15 @@ ezra({
       'contextInfo': {
         'isForwarded': true,
         'forwardedNewsletterMessageInfo': {
-          'newsletterJid': "120363366284524544@newsletter",
-          'newsletterName': "toxic lover",
+          'newsletterJid': "120363421104812135@newsletter",
+          'newsletterName': "TEDDY-XMD",
           'serverMessageId': 0x8f
         },
         'forwardingScore': 0x3e7,
         'externalAdReply': {
           'title': "toxic lover",
           'body': "⚫ Pong: " + _0x21013e + "ms\n📅 *Date:* " + _0x1b450d + "\n⏰ *Time:* " + _0x4e1d22,
-          'thumbnailUrl': "https://files.catbox.moe/a4q16k.jpg",
+          'thumbnailUrl': "https://files.catbox.moe/a0mj3n.jpg",
           'mediaType': 0x1,
           'renderSmallThumbnail': true
         }
@@ -64,27 +64,27 @@ ezra({
     repondre: _0x1843be
   } = _0x544c94;
   try {
-    const _0x273ae5 = await axios.get("https://github.com/black-spider436/jeepers-creeper-xmd/fork");
+    const _0x273ae5 = await axios.get("https://github.com/Teddytech1/TEDDY-XMD/fork");
     const _0x540861 = _0x273ae5.data;
     const _0x5abda2 = moment(_0x540861.updated_at).format("DD/MM/YYYY");
     const _0xb0dc07 = "\nThis is\n\n> JEEPERS CREEPER-XMD\n\n*Don't forget fork and star repo*\n\n> *sᴛᴀʀs:* " + _0x540861.stargazers_count + "\n> *Forks:* " + _0x540861.forks_count + "\n> *Watchera:* " + _0x540861.watchers + "\n> *Updated:* " + _0x5abda2 + "\n> *Repo Link:*" + _0x540861.html_url + "*\n\n®";
     await _0x16c249.sendMessage(_0x1e08fe, {
       'image': {
-        'url': "https://files.catbox.moe/a4q16k.jpg"
+        'url': "https://files.catbox.moe/a0mj3n.jpg"
       },
       'caption': _0xb0dc07,
       'contextInfo': {
         'isForwarded': true,
         'forwardedNewsletterMessageInfo': {
-          'newsletterJid': "120363366284524544@newsletter",
-          'newsletterName': "sir bravin",
+          'newsletterJid': "120363421104812135@newsletter",
+          'newsletterName': "TEDDY-XMD",
           'serverMessageId': 0x8f
         },
         'forwardingScore': 0x3e7,
         'externalAdReply': {
-          'title': "JEEPERS CREEPER-XMD",
+          'title': "TEDDY-XMD",
           'body': "💖repo link request 💖",
-          'thumbnailUrl': "https://files.catbox.moe/a4q16k.jpg",
+          'thumbnailUrl': "https://files.catbox.moe/a0mj3n.jpg",
           'mediaType': 0x1,
           'mediaUrl': '',
           'sourceUrl': ''
@@ -97,12 +97,12 @@ ezra({
       },
       'mimetype': "audio/mp4",
       'ptt': true,
-      'caption': "*🩸 JEEPERS CREEPER-XMD repo song 🩸",
+      'caption': "*🩸 TEDDY-XMD repo song 🩸",
       'contextInfo': {
         'isForwarded': true,
         'forwardedNewsletterMessageInfo': {
-          'newsletterJid': "120363366284524544@newsletter",
-          'newsletterName': "sir bravin",
+          'newsletterJid': "120363421104812135@newsletter",
+          'newsletterName': "TEDDY-XMD",
           'serverMessageId': -1
         }
       }

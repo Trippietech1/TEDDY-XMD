@@ -230,13 +230,13 @@ ezra({
 
     const infoMsg = `
 ╭───────────⊷
-*┋* *ʙᴏᴛ ɴᴀᴍᴇ :  🏹 JEEPERS CREEPER-XMD 🏹*
+*┋* *ʙᴏᴛ ɴᴀᴍᴇ :  🏹 TEDDY-XMD 🏹*
 *┋* *ᴘʀᴇғɪx :* [ ${s.PREFIXE} ]
 *┋* *ᴍᴏᴅᴇ :* ${mode}
 *┋* *ᴅᴀᴛᴇ  :* ${date}
-*┋*made in kenya: Eldoret 
+*┋*. *𝙳𝙴𝚅.  : +254799963583
 *┋* *ᴘʟᴀᴛғᴏʀᴍ :* ${os.platform()}
-*┋* *ᴏᴡɴᴇʀ ɪs : sir bravin*
+*┋* *ᴏᴡɴᴇʀ ɪs : Teddy Tech*
 *┋* *ᴘʟᴜɢɪɴs ᴄᴍᴅ :* ${cm.length}
 ╰───────────⊷\n`;
     
@@ -255,25 +255,25 @@ ezra({
     }
     
     menuMsg += `
-> @made by sir bravin 2025\n`;
+> @made by Teddy-Tech\n`;
 
     try {
         await zk.sendMessage(dest, { 
-            image: { url: "https://files.catbox.moe/bqt6qj.jpg" },
+            image: { url: "https://files.catbox.moe/a0mj3n.jpg" },
             caption: infoMsg + menuMsg,
             contextInfo: {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: "120363366284524544@newsletter",
-                    newsletterName: "JEEPERD CREEPER-XMD",
+                    newsletterJid: "120363421104812135@newsletter",
+                    newsletterName: "TEDDY-XMD",
                     serverMessageId: -1
                 },
                 forwardingScore: 999,
                 externalAdReply: {
-                    title: "🏹 JEEPERS CREEPER XMD🏹",
+                    title: "🏹 TEDDY XMD🏹",
                     body: "🔑🗝️ Command List",
-                    thumbnailUrl: "https://files.catbox.moe/3vlvoj.jpg",
-                    sourceUrl: "https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g",
+                    thumbnailUrl: "https://files.catbox.moe/a0mj3n.jpg",
+                    sourceUrl: "https://whatsapp.com/channel/0029Vb6NveDBPzjPa4vIRt3n",
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }

@@ -30,8 +30,8 @@ ezra({ nomCom: "videologo", categorie: "General", reaction: "🔖" }, async (des
       contextInfo: {
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
-         newsletterJid: '120363404784570099@newsletter',
-         newsletterName: "@jeepers creeper-xmd",
+         newsletterJid: '120363421104812135@newsletter',
+         newsletterName: "TEDDY-XMD",
          serverMessageId: 143,
       },
     };
@@ -79,7 +79,7 @@ ezra({ nomCom: "videologo", categorie: "General", reaction: "🔖" }, async (des
           await zk.sendMessage(dest, {
             video: { url: logoUrl },
             mimetype: "video/mp4",
-            caption: `> *Downloaded by ☢️ JEEPERS CREEPER-XMD ☢️ Planet*`,
+            caption: `> *Downloaded by ☢️ TEDDY-XMD ☢️*`,
           }, { quoted: ms });
         }
       }

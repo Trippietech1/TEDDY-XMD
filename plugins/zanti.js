@@ -100,7 +100,7 @@ ezra({
   }
   _0x40a588.ANTI_LINK_GROUP = _0x376703;
   fs.writeFileSync("./fredie/anti.json", JSON.stringify(_0x40a588, null, 2));
-  _0x31f7a2("✅ JEEPER CREEPER XMD ANTI_LINK_GROUP is now: *" + _0x376703.toUpperCase() + '*');
+  _0x31f7a2("✅ TEDDY-XMD ANTI_LINK_GROUP is now: *" + _0x376703.toUpperCase() + '*');
 });
 ezra({
   'nomCom': "antishare",
@@ -126,5 +126,5 @@ ezra({
   }
   _0x4cf4ca.ANTI_SHARE_GROUP = _0x3af957;
   fs.writeFileSync("./fredie/anti.json", JSON.stringify(_0x4cf4ca, null, 2));
-  _0xb02e68("✅ JEEPERS CREEPER XMD ANTI_SHARE_GROUP is now: *" + _0x3af957.toUpperCase() + '*');
+  _0xb02e68("✅ TEDDY XMD ANTI_SHARE_GROUP is now: *" + _0x3af957.toUpperCase() + '*');
 });

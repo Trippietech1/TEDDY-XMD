@@ -4,19 +4,19 @@ const {
 const tagCommands = [{
   'nomCom': "tagallmembers",
   'filter': () => true,
-  'title': "📣 JEEPERS CREEPER TAG ALL MEMBERS"
+  'title': "📣 TEDDY XMD TAG ALL MEMBERS"
 }, {
   'nomCom': "tagadmins",
   'filter': (_0x12fd26, _0x4cf701) => _0x4cf701.includes(_0x12fd26.id),
-  'title': "👑 JEEPERS CREEPER TAG ADMINS"
+  'title': "👑 TEDDY-XMD TAG ADMINS"
 }, {
   'nomCom': "tagonline",
   'filter': _0x4a25eb => _0x4a25eb.isOnline,
-  'title': "🟢 JEEPERS CREEPER TAG ONLINE"
+  'title': "🟢 TEDDY-XMD TAG ONLINE"
 }, {
   'nomCom': "tagoffline",
   'filter': _0x188d05 => !_0x188d05.isOnline,
-  'title': "🔴 JEEPERS CREEPER TAG OFFLINE"
+  'title': "🔴 TEDDY-XMD TAG OFFLINE"
 }];
 tagCommands.forEach(({
   nomCom: _0x4b759c,

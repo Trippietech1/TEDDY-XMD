@@ -26,7 +26,7 @@ ezra({
     }
 
     // Construct the search message
-    let searchMessage = `JEEPERS CREEPER-XMD PLANET TWITTER SEARCH\n\n`;
+    let searchMessage = `TEDDY-XMD TWITTER SEARCH\n\n`;
     searchMessage += `Creator: ${response.data.creator}\n\n`;  // Include the creator info
 
     // Loop through search results and append details to the message
@@ -48,9 +48,9 @@ ezra({
           mentionedJid: [dest],
           externalAdReply: {
             showAdAttribution: true,
-            title: "JEEPERS CREEPER-XMD TWITTER SEARCH",
-            body: "TOXIC LOVER TECH",
-            sourceUrl: "https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g",
+            title: "TEDDY-XMD TWITTER SEARCH",
+            body: "TEDDY TECH",
+            sourceUrl: "https://whatsapp.com/channel/0029Vb6NveDBPzjPa4vIRt3n",
             mediaType: 1,
             renderLargerThumbnail: false,
           },

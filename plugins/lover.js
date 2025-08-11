@@ -34,19 +34,19 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
 let infoMsg =  `
-━━━━❍ *JEEPERS CREEPER-XMD TECH INFO* ❍━━━━
+━━━━❍ *TEDDY-XMD BOT INFO* ❍━━━━
 ╭──━━━━━━━━━━━━━━━━━━━❍ 
 │
-│  _*Support channel by follow*_ ;https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g. https://whatsapp.com/channel/0029VbAoW2dAInPcTs6Fmg1o
-│  _*Join Our WhatsApp group*_ ;https://chat.whatsapp.com/EQdgnmlMEuhGR9jF9nTpnE
-│  _*WhatsApp Contact As*_ ;https://wa.link/3rc9x7
-│  _*WhatsApp Bot Fork And Star*_ ;https://api.github.com/toxiclover-tech/TOXIC-LOVER-MD
-│  _*Telegram Channel*_ ;https://t.me/toxiclover12
-│  _*Telegram Bot*_ ;https://t.me/toxiclover12
-│  _*Telegram Contact As*_;https://t.me/toxiclover12
-│  _*Instagram*_ ;https://www.instagram.com/bravin126?igsh=MWJvZzBnN3RsYTRsag==
+│  _*Support channel by follow*_ ; https://whatsapp.com/channel/0029Vb6NveDBPzjPa4vIRt3n
+│  _*Join Our WhatsApp group*_ ;https://chat.whatsapp.com/KnL0Ft6gvHDGP2lH3oN5Z5?mode=ac_t
+│  _*WhatsApp Contact As*_ ;https://wa.me/254799963583
+│  _*WhatsApp Bot Fork And Star*_ ;https://api.github.com/Teddytech1/TEDDY-XMD
+│  _*Telegram Channel*_ ;https://t.me/free_net_zone
+│  _*Telegram Bot*_ ;https://t.me/Teddytechbot
+│  _*Telegram Contact As*_;https://t.me/teddy_md
+│  _*Instagram*_ ;https://www.instagram.com/kibet_fx1?igsh=MWdrMWdpOGNxbHNvYQ==
 │  _*Facebook*_ ;https://www.facebook.com/bravin126
-│  _*Follow My Github For About Info*_ ;https://github.com/toxiclover-tech
+│  _*Follow My Github Account;https://github.com/Teddytech1
 │
 ╰──━━━━━━━━━━━━━━━━━━━❍ 
 ╭──━━━━━━━━━━━━━━━──➳❍ 
@@ -62,7 +62,7 @@ let menuMsg = `
 
    ╭──━━━━━━━━━━━━❖
 ╭──━━━➳⊷•∞•➻━━━───❂
-║ jeeper creepers_xmd
+║     TEDDY-XMD
 ╰──━━━➳⊷•∞•➻━━━───❂
    ╰──━━━━━━━━━━━━❖
 
@@ -97,7 +97,7 @@ let menuMsg = `
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *JEEPERS CREEPER-XMD*, déveloper toxic lover Tech" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *TEDDY-XMD*, déveloper Teddy Tech" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -107,7 +107,7 @@ let menuMsg = `
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Jeepers creepers-xmd*, déveloper jeepers creepers Tech" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Teddy-xmd*, déveloper Teddy Tech" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);

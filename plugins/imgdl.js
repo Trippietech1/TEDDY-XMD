@@ -7,7 +7,7 @@ var gis = require('g-i-s');
 
 ezra({
   nomCom: "img",
-  categorie: "JEEPERS CREEPERS-XMD-search",
+  categorie: "TEDDY-XMD-search",
   reaction: "📷"
 },
 async (dest, zk, commandeOptions) => {

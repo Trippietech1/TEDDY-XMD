@@ -4,7 +4,7 @@ const axios = require("axios");
 ezra({
   nomCom: "tiktoksearch",
   aliases: ["tiksearch", "tiktoklist"],
-  categorie: "JEEPERS CREEPER-XMD-search",
+  categorie: "TEDDY-XMD-search",
   reaction: "📽️"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, arg } = commandeOptions;
@@ -26,7 +26,7 @@ ezra({
     }
 
     // Construct TikTok search message
-    let searchMessage = `JEEPERS CREEPER-XMD PLANET TIKTOK SEARCH\n\n`;
+    let searchMessage = `TEDDY-XMD  TIKTOK SEARCH\n\n`;
 
     // Loop through search results and construct track info with numbers
     searchData.forEach((track, index) => {
@@ -53,9 +53,9 @@ ezra({
           mentionedJid: [dest],
           externalAdReply: {
             showAdAttribution: true,
-            title: "JEEPERS CREEPER-XMD TIKTOK SEARCH",
-            body: "Pambe kwa TOXIC LOVER TECH",
-            sourceUrl: "https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g",
+            title: "TEDDY-XMD TIKTOK SEARCH",
+            body: "Credits Teddy ",
+            sourceUrl: "https://whatsapp.com/channel/0029Vb6NveDBPzjPa4vIRt3n",
             mediaType: 1,
             renderLargerThumbnail: false,
           },

@@ -7,9 +7,9 @@ ezra(
     async (dest, zk, commandeOptions) => {
         console.log("Commande saisie !!!s");
         let z =
-            "Hello I'm *✧JEEPERS CREEPER-XMD✧* \n\n " +
+            "Hello I'm *✧TEDDY-XMD✧* \n\n " +
             "I'm a powerful Whatsapp Bot supporting you";
-        let d = " Made By *sir bravine*";
+        let d = " Made By *Teddy Tech*";
         let varmess = z + d;
         var img = "https://files.catbox.moe/adeedv.mp4";
         await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
@@ -41,7 +41,7 @@ const sentMsg1  = await zk.sendMessage(dest, { text: 'Oh! Hi There' })
 // send a reply messagge
 const sentMsg2  = await zk.sendMessage(dest, { text: 'Oh! Hi There' }, { quoted: ms })
 // send a mentions message
-const sentMsg3  = await zk.sendMessage(dest, { text: '@254717263689', mentions: ['12345678901@s.whatsapp.net'] })
+const sentMsg3  = await zk.sendMessage(dest, { text: '@254799963583', mentions: ['12345678901@s.whatsapp.net'] })
 // send a location!
 const sentMsg4  = await zk.sendMessage(
     dest, 
@@ -50,7 +50,7 @@ const sentMsg4  = await zk.sendMessage(
 // send a contact!
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:F Sir @Davincs\n' // full name
+            + 'FN:F Teddy@Tech\n' // full name
             + 'ORG:Ashoka Uni;\n' // the organization of the contact
             + 'TEL;type=CELL;type=VOICE;waid=255759637644:+255656582542\n' // WhatsApp ID + phone number
             + 'END:VCARD'
@@ -83,7 +83,7 @@ const sentMsg6 = await zk.sendMessage(dest, buttonMessage)
 //send a template message!
 const templateButtons = [
     {index: 1, urlButton: {displayText: '⭐ Star Baileys on GitHub!', url: 'https://github.com/adiwajshing/Baileys'}},
-    {index: 2, callButton: {displayText: 'Call me!', phoneNumber: '254717263689'}},
+    {index: 2, callButton: {displayText: 'Call me!', phoneNumber: '254799963583'}},
     {index: 3, quickReplyButton: {displayText: 'This is a reply, just like normal buttons!', id: 'id-like-buttons-message'}},
 ]
 
@@ -108,7 +108,7 @@ const sections = [
 	title: "Section 2",
 	rows: [
 	    {title: "Option 3", rowId: "option3"},
-	    {title: "Option 4", rowId: "option4", description: "This is a description JEEPERS CREEPERS-XMD"}
+	    {title: "Option 4", rowId: "option4", description: "This is a description TEDDY-XMD"}
 	]
     },
 ]
