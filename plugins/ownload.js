@@ -151,12 +151,12 @@ module.exports = [
         if (item.type === 'image') {
           await king.sendMessage(fromJid, {
             image: { url: item.url },
-            caption: `📸 _✨ Downloaded by JEEPERS CREEPER-XMD_`
+            caption: `📸 _✨ Downloaded by aTEDDY-XMD_`
           }, { quoted: msg });
         } else if (item.type === 'video') {
           await king.sendMessage(fromJid, {
             video: { url: item.url },
-            caption: `🎥 _✨ Downloaded by JEEPERS CREEPER-XMD_`
+            caption: `🎥 _✨ Downloaded by TEDDY-XMD_`
           }, { quoted: msg });
         }
       }
@@ -223,8 +223,8 @@ _Use this info to explore or install the package via terminal_`;
                         forwardingScore: 1,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterJid: '120363366284524544@newsletter',
-                            newsletterName: 'sir bravin',
+                            newsletterJid: '120363421104812135@newsletter',
+                            newsletterName: 'TEDDY',
                             serverMessageId: -1
                         }
                     }
@@ -261,13 +261,13 @@ _Use this info to explore or install the package via terminal_`;
       if (data.status && data.BK9 && data.BK9.high) {
         await sock.sendMessage(chatId, {
           video: { url2: data.BK9.high },
-          caption: "🎥 *JEEPERS CREEPER-XMD* Video Downloader (High Quality)",
+          caption: "🎥 *TEDDY-XMD* Video Downloader (High Quality)",
           contextInfo: {
             forwardingScore: 1,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-              newsletterJid: '120363366284524544@newsletter',
-              newsletterName: 'jeepers creeper-xmd',
+              newsletterJid: '120363421104812135@newsletter',
+              newsletterName: 'Teddy-xmd',
               serverMessageId: -1
             }
           }
@@ -321,8 +321,8 @@ _Use this info to explore or install the package via terminal_`;
               forwardingScore: 1,
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363366284524544@newsletter',
-                newsletterName: 'SIR BRAVIN',
+                newsletterJid: '120363421104812135@newsletter',
+                newsletterName: 'TEDDY',
                 serverMessageId: -1
               }
             }
@@ -587,7 +587,7 @@ _Use this info to explore or install the package via terminal_`;
 
           await sock.sendMessage(chatId, {
             video: { url: result.hd },
-            caption: "_╰►FB VIDEO DOWNLOADED BY_ *JEEPERS CREEPER-XMD*",
+            caption: "_╰►FB VIDEO DOWNLOADED BY_ *TEDDY-XMD*",
             contextInfo
           }, { quoted: msg });
         })
@@ -618,8 +618,8 @@ _Use this info to explore or install the package via terminal_`;
       forwardingScore: 1,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363366284524544@newsletter',
-        newsletterName: 'sir bravin',
+        newsletterJid: '120363421104812135@newsletter',
+        newsletterName: 'TEDDY',
         serverMessageId: -1
       }
     };
@@ -643,7 +643,7 @@ _Use this info to explore or install the package via terminal_`;
 
           await sock.sendMessage(chatId, {
             video: { url: result.sd },
-            caption: "_╰►FACEBOOK VIDEO DOWNLOADED BY_ *JEEPERS CREEPER-XMD*",
+            caption: "_╰►FACEBOOK VIDEO DOWNLOADED BY_ *TEDDY-XMD*",
             contextInfo
           }, { quoted: msg });
         })
@@ -674,8 +674,8 @@ _Use this info to explore or install the package via terminal_`;
       forwardingScore: 1,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363366284524544@newsletter',
-        newsletterName: 'sir bravin',
+        newsletterJid: '120363421104812135@newsletter',
+        newsletterName: 'TEDDY',
         serverMessageId: -1
       }
     };
@@ -703,7 +703,7 @@ _Use this info to explore or install the package via terminal_`;
           `Discovered By: ${result.discovered_by}`;
 
         await sock.sendMessage(chatId, {
-          text: "A moment, JEEPERS CREEPER-XMD is sending your results"
+          text: "A moment, TEDDY-XMD is sending your results"
         }, { quoted: msg });
 
         if (result.image) {
@@ -744,8 +744,8 @@ _Use this info to explore or install the package via terminal_`;
       forwardingScore: 1,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363366284524544@newsletter',
-        newsletterName: 'sir bravin',
+        newsletterJid: '120363421104812135@newsletter',
+        newsletterName: 'TEDDY',
         serverMessageId: -1
       }
     };
@@ -782,7 +782,7 @@ _Use this info to explore or install the package via terminal_`;
       for (const imageUrl of selectedImages) {
         await sock.sendMessage(chatId, {
           image: { url: imageUrl },
-          caption: "_╰►DOWNLOADED BY_ *JEEPER CREEPER-XMD*",
+          caption: "_╰►DOWNLOADED BY *TEDDY-XMD*",
           contextInfo
         }, { quoted: msg });
       }
@@ -828,7 +828,7 @@ _Use this info to explore or install the package via terminal_`;
       const stories = res.items.slice(0, 5); 
 
       for (const [index, item] of stories.entries()) {
-        const caption = `📖 *${username}* - Story ${index + 1} of ${stories.length}\n\n_*✨Downloaded by Jeepers Creeper-Xmd*_`;
+        const caption = `📖 *${username}* - Story ${index + 1} of ${stories.length}\n\n_*✨Downloaded by Teddy-Xmd*_`;
 
         if (item.type === 'image') {
           await king.sendMessage(fromJid, {
@@ -869,8 +869,8 @@ const contextInfo = {
   forwardingScore: 1,
   isForwarded: true,
   forwardedNewsletterMessageInfo: {
-    newsletterJid: '120363366284524544@newsletter',
-    newsletterName: 'sir Bravin',
+    newsletterJid: '120363421104812135@newsletter',
+    newsletterName: 'Teddy',
     serverMessageId: -1
   }
 };
@@ -906,7 +906,7 @@ const contextInfo = {
         mimetype: `application/${file.mime.toLowerCase()}`,
         caption:
           `╰► *MediaFire Download Completed!*\n` +
-          `Downloaded by: *FLASH-MD*\n\n` +
+          `Downloaded by: *TEDDY-XMD*\n\n` +
           `📂 *Name:* ${file.name}\n` +
           `📦 *Size:* ${file.size}\n` +
           `📄 *Type:* ${file.filetype}\n` +

@@ -78,7 +78,7 @@ async function downloadFromApis(apis) {
 ezra({
   nomCom: "play2",
   aliases: ["song", "playdoc", "audio", "mp3"],
-  categorie: "jeepers creeper xmd-Download",
+  categorie: "Teddy xmd-Download",
   reaction: "🎵"
 }, async (dest, zk, commandOptions) => {
   const { arg, ms, userJid } = commandOptions;

@@ -43,7 +43,7 @@ const date = moment().format('DD/MM/YYYY');
 > https://github.com/toxiclover-tech
 
 *TELEGRAM GROUP*
-> t.me/free_net_zonr
+> t.me/free_net_zone
 
 *FOR DEVELOPER T.ME*
 >https://wa.me/254799963583

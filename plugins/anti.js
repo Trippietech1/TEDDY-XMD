@@ -48,7 +48,7 @@ ezra({
   }
   _0x1c67de.ANTI_TAG = _0x40860d;
   fs.writeFileSync("./fredie/tag.json", JSON.stringify(_0x1c67de, null, 2));
-  _0x5797cb("✅ jeepers creeper xmd ANTI_TAG mode is now: " + _0x40860d);
+  _0x5797cb("✅ teddy xmd ANTI_TAG mode is now: " + _0x40860d);
 });
 ezra({
   'nomCom': "antimentiongroup",

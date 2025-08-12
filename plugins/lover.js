@@ -45,7 +45,7 @@ let infoMsg =  `
 │  _*Telegram Bot*_ ;https://t.me/Teddytechbot
 │  _*Telegram Contact As*_;https://t.me/teddy_md
 │  _*Instagram*_ ;https://www.instagram.com/kibet_fx1?igsh=MWdrMWdpOGNxbHNvYQ==
-│  _*Facebook*_ ;https://www.facebook.com/bravin126
+│  _*Facebook*_ ;https://www.facebook.com/kibetfx1
 │  _*Follow My Github Account;https://github.com/Teddytech1
 │
 ╰──━━━━━━━━━━━━━━━━━━━❍ 
