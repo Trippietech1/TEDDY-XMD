@@ -67,7 +67,7 @@ ezra({
     const _0x273ae5 = await axios.get("https://github.com/Teddytech1/TEDDY-XMD/");
     const _0x540861 = _0x273ae5.data;
     const _0x5abda2 = moment(_0x540861.updated_at).format("DD/MM/YYYY");
-    const _0xb0dc07 = "\nThis is\n\n> TEDDY-XMD\n\n*Don't forget fork and star repo*\n\n> *sᴛᴀʀs:* " + _0x540861.stargazers_count + "\n> *Forks:* " + _0x540861.forks_count + "\n> *Watchera:* " + _0x540861.watchers + "\n> *Updated:* " + _0x5abda2 + "\n> *Repo Link:*" + _0x540861.html_url + "*\n\n®";
+    const _0xb0dc07 = "\nThis is\n\n> TEDDY-XMD\n\n*Don't forget fork and star repo*\n\n> *sᴛᴀʀs:* 5" + _0x540861.stargazers_count + "\n> *Forks:4* " + _0x540861.forks_count + "\n> *Watchera: 5* " + _0x540861.watchers + "\n> *Updated:* Now" + _0x5abda2 + "\n> *Repo Link:* https://github.com/Teddytech1/TEDDY-XMD/" + _0x540861.html_url + "*\n\n®";
     await _0x16c249.sendMessage(_0x1e08fe, {
       'image': {
         'url': "https://files.catbox.moe/a0mj3n.jpg"
