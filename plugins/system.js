@@ -23,11 +23,11 @@ function runtime(seconds) {
 // New loading animation with different symbols and larger progress bar
 async function loading(dest, zk) {
   const lod = [
-    "SPEED꧁20%꧂",
-    "SPEED꧁40%꧂",
-    "SPEED꧁60%꧂",
-    "SEED꧁80%꧂",
-    "SPEED꧁100%꧂",
+    "🟦🟦🟥🟥🟥🟥🟦🟦꧁20%꧂",
+    "🟦🟦🟦🟦🟥🟥🟥🟥꧁40%꧂",
+    "🟥🟥🟦🟦🟦🟦🟥🟥꧁60%꧂",
+    "🟥🟥🟥🟥🟦🟦🟦🟦꧁80%꧂",
+    "🟦🟦🟥🟥🟥🟥🟦🟦꧁100%꧂",
     "*𝕷𝕺𝕬𝕯𝕴𝕹𝕲 𝕤𝕦𝕡𝕖𝕣 𝕗𝕒𝕤𝕥 𝕤𝕡𝕖𝕖𝕕 ping TEDDY-XMD ⚡⚡*"
   ];
 
@@ -81,7 +81,7 @@ ezra({
     fileName: 'shizo',
     contextInfo: {
       externalAdReply: {
-        title: 'THIS IS TEDDY-XMD ALIVE* AND SURVIVE MY FRIEND DONT WORRY',
+        title: 'THIS IS JEEPERS CREEPER-XMD ALIVE* AND SURVIVE MY FRIEND DONT WORRY',
         body: conf.OWNER_NAME,
         thumbnailUrl: conf.URL,
         sourceUrl: conf.GURL, // Corrected variable name
@@ -235,7 +235,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Teddy xmd owner 🤦*");
+    return repondre("*This command is restricted to the bot owner or jeepers creepers owner 🤦*");
   }
 
   const appname = s.HEROKU_APP_NAME;

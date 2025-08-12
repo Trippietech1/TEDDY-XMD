@@ -4,7 +4,7 @@ const getFBInfo = require("@xaviabot/fb-downloader");
 const { default: axios } = require('axios');
 const { getJson } = require("../fredi/utils");
 
-ezra({nomCom : "igdl" , categorie : "teddy-xmd-Download"},async (dest , zk , commandeOptions)=>{
+ezra({nomCom : "igdl" , categorie : "TEDDY-XMD-Download"},async (dest , zk , commandeOptions)=>{
   const {ms,repondre,arg} = commandeOptions ;
 
   let link = arg.join(' ')
@@ -29,7 +29,7 @@ ezra({nomCom : "igdl" , categorie : "teddy-xmd-Download"},async (dest , zk , com
 
 ezra({
   nomCom: "fbdl",
-  categorie: "toxic lover-tech",
+  categorie: "TEDDY-XMD",
   reaction: "📽️"
 },
 async (dest, zk, commandeOptions) => {
@@ -66,7 +66,7 @@ async (dest, zk, commandeOptions) => {
 
 
 
-ezra({ nomCom: "tiktok", categorie: "toxic lover-tech-Download", reaction: "🎵" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "tiktok", categorie: "TEDDY-XMD-Download", reaction: "🎵" }, async (dest, zk, commandeOptions) => {
   const { arg, ms, prefixe,repondre } = commandeOptions;
   if (!arg[0]) {
     repondre(`how to use this command:\n ${prefixe}tiktok tiktok_video_link`);
@@ -93,7 +93,7 @@ Description: ${tik.desc}
 
 ezra({
   nomCom: "fbdl2",
-  categorie: "toxic lover-tech-Download",
+  categorie: "TEDDY-XMD-Download",
   reaction: "📽️"
 },
 async (dest, zk, commandeOptions) => {
@@ -131,7 +131,7 @@ async (dest, zk, commandeOptions) => {
 // Request for Muvies
 ezra({
   nomCom: "movie",
-  categorie: "toxic lover-tech-Search",
+  categorie: "TEDDY-XMD-Search",
   reaction: "🎥"
 }, async (origineMessage, zk, commandeOptions) => {
   const { repondre, arg } = commandeOptions;

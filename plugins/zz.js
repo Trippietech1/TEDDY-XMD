@@ -29,7 +29,7 @@ async function uploadToCatbox(filePath) {
 ezra({
   nomCom: "play",
   aliases: ["song", "playdoc", "audio", "mp3"],
-  categorie: "sir-bravin downloader",
+  categorie: "TEDDY-XMD downloader",
   reaction: "🎧"
 }, async (dest, zk, commandOptions) => {
   const { arg, ms, repondre } = commandOptions;

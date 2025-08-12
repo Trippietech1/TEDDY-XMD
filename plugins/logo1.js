@@ -70,9 +70,9 @@ ezra({ nomCom: "logo", categorie: "Search", reaction: "🤭" }, async (dest, zk,
     const contextInfo = {
       mentionedJid: [ms.sender], // Mention the sender
       externalAdReply: {
-        title: "🍂 JEEPERS CREEPER-XMD",
+        title: "🍂 TEDDY-XMD",
         body: "Regards, ",
-        thumbnailUrl: "https://files.catbox.moe/mtky7d.jpg",
+        thumbnailUrl: "https://files.catbox.moe/a0mj3n.jpg",
         sourceUrl: "https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g",
         mediaType: 1,
         renderLargerThumbnail: true,

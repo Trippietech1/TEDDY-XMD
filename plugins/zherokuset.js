@@ -65,7 +65,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Davincs owner.* 🤦,,idiot");
+    return repondre("*This command is restricted to the bot owner or Teddy xmd owner.* 🤦,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -106,7 +106,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Davincs owner.* 🤦,,idiot");
+    return repondre("*This command is restricted to the bot owner or Teddy xmd owner.* 🤦,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -146,7 +146,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Davincs owner.* 🤦,,idiot");
+    return repondre("*This command is restricted to the bot owner or Teddy xmd owner.* 🤦,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -187,7 +187,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Davincs owner.* 🤦,,idiot");
+    return repondre("*This command is restricted to the bot owner or Teddy xmd owner.* 🤦,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -222,13 +222,13 @@ ezra({
 
 ezra({
   nomCom: 'startingmessage',
-  categorie: "TEDDY-SETTING"
+  categorie: "TEDDY-XMD-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Davincs owner.* 🤦,,idiot");
+    return repondre("*This command is restricted to the bot owner or Teddy xmd owner.* 🤦,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -269,7 +269,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Davincs owner.* 🤦,,idiot");
+    return repondre("*This command is restricted to the bot owner or Teddy xmd owner.* 🤦,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -310,7 +310,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Davincs owner.* 🤦,,idiot");
+    return repondre("*This command is restricted to the bot owner or Teddy xmd owner.* 🤦,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -350,7 +350,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Davincs owner.* 🤦,,idiot");
+    return repondre("*This command is restricted to the bot owner or Teddy xmd owner.* 🤦,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -390,7 +390,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Davincs owner.* 🤦,,idiot");
+    return repondre("*This command is restricted to the bot owner or Teddy xmd owner.* 🤦,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -431,7 +431,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Davincs owner.* 🤦,,idiot");
+    return repondre("*This command is restricted to the bot owner or Teddy xmd owner.* 🤦,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -472,7 +472,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Davincs owner.* 🤦,,idiot");
+    return repondre("*This command is restricted to the bot owner or Teddy xmd owner.* 🤦,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -513,7 +513,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Lucky owner.* 🤦,,idiot");
+    return repondre("*This command is restricted to the bot owner or Teddy xmd owner.* 🤦,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -554,7 +554,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Davincs owner.* 🤦,,idiot");
+    return repondre("*This command is restricted to the bot owner or Teddy xmd owner.* 🤦,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -595,7 +595,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Davincs owner.* 🤦,,idiot");
+    return repondre("*This command is restricted to the bot owner or Teddy xmd owner.* 🤦,,idiot");
   }
 
   // Validate user input and respond accordingly

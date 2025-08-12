@@ -151,12 +151,12 @@ module.exports = [
         if (item.type === 'image') {
           await king.sendMessage(fromJid, {
             image: { url: item.url },
-            caption: `📸 _✨ Downloaded by aTEDDY-XMD_`
+            caption: `📸 _✨ Downloaded by JEEPERS CREEPER-XMD_`
           }, { quoted: msg });
         } else if (item.type === 'video') {
           await king.sendMessage(fromJid, {
             video: { url: item.url },
-            caption: `🎥 _✨ Downloaded by TEDDY-XMD_`
+            caption: `🎥 _✨ Downloaded by JEEPERS CREEPER-XMD_`
           }, { quoted: msg });
         }
       }
@@ -223,8 +223,8 @@ _Use this info to explore or install the package via terminal_`;
                         forwardingScore: 1,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterJid: '120363421104812135@newsletter',
-                            newsletterName: 'TEDDY',
+                            newsletterJid: '120363421104812135@newsletterr',
+                            newsletterName: 'TEDDY-XMD',
                             serverMessageId: -1
                         }
                     }
@@ -267,7 +267,7 @@ _Use this info to explore or install the package via terminal_`;
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
               newsletterJid: '120363421104812135@newsletter',
-              newsletterName: 'Teddy-xmd',
+              newsletterName: 'TEDDY-XMD',
               serverMessageId: -1
             }
           }
@@ -322,7 +322,7 @@ _Use this info to explore or install the package via terminal_`;
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363421104812135@newsletter',
-                newsletterName: 'TEDDY',
+                newsletterName: 'TEDDY-XMD',
                 serverMessageId: -1
               }
             }
@@ -587,7 +587,7 @@ _Use this info to explore or install the package via terminal_`;
 
           await sock.sendMessage(chatId, {
             video: { url: result.hd },
-            caption: "_╰►FB VIDEO DOWNLOADED BY_ *TEDDY-XMD*",
+            caption: "_╰►FB VIDEO DOWNLOADED BY_ *JEEPERS CREEPER-XMD*",
             contextInfo
           }, { quoted: msg });
         })
@@ -618,8 +618,8 @@ _Use this info to explore or install the package via terminal_`;
       forwardingScore: 1,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363421104812135@newsletter',
-        newsletterName: 'TEDDY',
+        newsletterJid: '120363366284524544@newsletter',
+        newsletterName: 'sir bravin',
         serverMessageId: -1
       }
     };
@@ -654,7 +654,7 @@ _Use this info to explore or install the package via terminal_`;
         });
     } catch (error) {
       await sock.sendMessage(chatId, {
-        text: "An error occurred while Flash-MD was downloading your media."
+        text: "An error occurred while TEDDY-XMD was downloading your media."
       }, { quoted: msg });
     }
   }
@@ -675,7 +675,7 @@ _Use this info to explore or install the package via terminal_`;
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
         newsletterJid: '120363421104812135@newsletter',
-        newsletterName: 'TEDDY',
+        newsletterName: 'TEDDY-XMD',
         serverMessageId: -1
       }
     };
@@ -703,7 +703,7 @@ _Use this info to explore or install the package via terminal_`;
           `Discovered By: ${result.discovered_by}`;
 
         await sock.sendMessage(chatId, {
-          text: "A moment, TEDDY-XMD is sending your results"
+          text: "A moment, JEEPERS CREEPER-XMD is sending your results"
         }, { quoted: msg });
 
         if (result.image) {
@@ -745,7 +745,7 @@ _Use this info to explore or install the package via terminal_`;
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
         newsletterJid: '120363421104812135@newsletter',
-        newsletterName: 'TEDDY',
+        newsletterName: 'TEDDY-XMD',
         serverMessageId: -1
       }
     };
@@ -782,7 +782,7 @@ _Use this info to explore or install the package via terminal_`;
       for (const imageUrl of selectedImages) {
         await sock.sendMessage(chatId, {
           image: { url: imageUrl },
-          caption: "_╰►DOWNLOADED BY *TEDDY-XMD*",
+          caption: "_╰►DOWNLOADED BY_ *TEDDY-XMD*",
           contextInfo
         }, { quoted: msg });
       }
@@ -828,7 +828,7 @@ _Use this info to explore or install the package via terminal_`;
       const stories = res.items.slice(0, 5); 
 
       for (const [index, item] of stories.entries()) {
-        const caption = `📖 *${username}* - Story ${index + 1} of ${stories.length}\n\n_*✨Downloaded by Teddy-Xmd*_`;
+        const caption = `📖 *${username}* - Story ${index + 1} of ${stories.length}\n\n_*✨Downloaded by TEDDY-XMD*_`;
 
         if (item.type === 'image') {
           await king.sendMessage(fromJid, {
@@ -870,7 +870,7 @@ const contextInfo = {
   isForwarded: true,
   forwardedNewsletterMessageInfo: {
     newsletterJid: '120363421104812135@newsletter',
-    newsletterName: 'Teddy',
+    newsletterName: 'TEDDY-XMD',
     serverMessageId: -1
   }
 };
@@ -949,7 +949,7 @@ const contextInfo = {
       if (data.status && data.BK9 && data.BK9.high) {
         await sock.sendMessage(chatId, {
           image: { url: data.BK9.high },
-          caption: "📸 *FLASH-MD* Image Downloader (High Quality)",
+          caption: "📸 *TEDDY-XMD* Image Downloader (High Quality)",
           contextInfo: {
             forwardingScore: 1,
             isForwarded: true,
@@ -1035,12 +1035,12 @@ const contextInfo = {
             await sock.sendMessage(chatId, {
                 text: `✅ Successfully fetched and sent APK for *${apk.name}*.
 
-_Enjoy using the app. Powered by FLASH-MD_`,
+_Enjoy using the app. Powered by TEDDY-XMD_`,
                 contextInfo: {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363238139244263@newsletter',
+                        newsletterJid: '120363421104812135@newsletter',
                         newsletterName: 'FLASH-MD',
                         serverMessageId: -1
                     }

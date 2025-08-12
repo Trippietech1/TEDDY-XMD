@@ -19,7 +19,7 @@ const s = require("../set")
 ezra(
     {
         nomCom : 'warn',
-        categorie : 'teddy xmd-Group'
+        categorie : 'TEDDY-XMD-Group'
         
     },async (dest,zk,commandeOptions) => {
 
@@ -53,7 +53,7 @@ if(verifAdmin || superUser) {
    
    
  // COMMAND TO GETALLMEMBERS 
-ezra({ nomCom: "getallmembers", categorie: 'Fredi-Group', reaction: "📣" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "getallmembers", categorie: 'TEDDY-XMD-Group', reaction: "📣" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, arg, verifGroupe, nomGroupe, infosGroupe, nomAuteurMessage, verifAdmin, superUser } = commandeOptions;
 
   if (!verifGroupe) return repondre("✋🏿 This command is reserved for groups ❌");
@@ -91,7 +91,7 @@ ezra({ nomCom: "getallmembers", categorie: 'Fredi-Group', reaction: "📣" }, as
 
 
 // COMMAND TO TAGALL
-ezra({ nomCom: "tagall", categorie: 'jeepers-Group', reaction: "📯" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "tagall", categorie: 'TEDDY-XMD-Group', reaction: "📯" }, async (dest, zk, commandeOptions) => {
 
   const { ms, repondre, arg, verifGroupe, nomGroupe, infosGroupe, nomAuteurMessage, verifAdmin, superUser } = commandeOptions
 
@@ -139,7 +139,7 @@ ezra({ nomCom: "tagall", categorie: 'jeepers-Group', reaction: "📯" }, async (
 
 
 // COMMAND TO LINK GROUP 
-ezra({ nomCom: "link", categorie: 'jeepers-Group', reaction: "🚜" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "link", categorie: 'TEDDY-XMD-Group', reaction: "🚜" }, async (dest, zk, commandeOptions) => {
   const { repondre, nomGroupe, nomAuteurMessage, verifGroupe } = commandeOptions;
   if (!verifGroupe) { repondre("wait bro , you want the link to my dm?"); return; };
 
@@ -158,7 +158,7 @@ Grp link :${lien} \n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢  ☢️ TEDDY-XMD
 
 // COMMAND TO PROMOTE ADM
 /** *nommer un membre comme admin */
-ezra({ nomCom: "promote", categorie: 'jeepers-Group', reaction: "💐" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "promote", categorie: 'TEDDY-XMD-Group', reaction: "💐" }, async (dest, zk, commandeOptions) => {
   let { repondre, msgRepondu, infosGroupe, auteurMsgRepondu, verifGroupe, auteurMessage, superUser, idBot } = commandeOptions;
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   if (!verifGroupe) { return repondre("For groups only"); }
@@ -218,7 +218,7 @@ ezra({ nomCom: "promote", categorie: 'jeepers-Group', reaction: "💐" }, async 
 })
 
 // COMMAND TO DEMOTE ADM
-ezra({ nomCom: "demote", categorie: 'jeepers-Group', reaction: "👨🏿‍💼" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "demote", categorie: 'TEDDY-XMD-Group', reaction: "👨🏿‍💼" }, async (dest, zk, commandeOptions) => {
   let { repondre, msgRepondu, infosGroupe, auteurMsgRepondu, verifGroupe, auteurMessage, superUser, idBot } = commandeOptions;
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   if (!verifGroupe) { return repondre("For groups only"); }
@@ -282,7 +282,7 @@ ezra({ nomCom: "demote", categorie: 'jeepers-Group', reaction: "👨🏿‍💼"
 
 
 // COMMAND TO REMOVE MEMBERS 
-ezra({ nomCom: "remove", categorie: 'jeepers-Group', reaction: "😱" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "remove", categorie: 'TEDDY-XMD-Group', reaction: "😱" }, async (dest, zk, commandeOptions) => {
   let { repondre, msgRepondu, infosGroupe, auteurMsgRepondu, verifGroupe, nomAuteurMessage, auteurMessage, superUser, idBot } = commandeOptions;
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   if (!verifGroupe) { return repondre("for groups only"); }
@@ -355,7 +355,7 @@ ezra({ nomCom: "remove", categorie: 'jeepers-Group', reaction: "😱" }, async (
 })
 
 // COMMAND TO DELETE 
-ezra({ nomCom: "del", categorie: 'jeepers-Group',reaction:"🧹" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "del", categorie: 'TEDDY-XMD-Group',reaction:"🧹" }, async (dest, zk, commandeOptions) => {
 
   const { ms, repondre, verifGroupe,auteurMsgRepondu,idBot, msgRepondu, verifAdmin, superUser} = commandeOptions;
   
@@ -404,7 +404,7 @@ ezra({ nomCom: "del", categorie: 'jeepers-Group',reaction:"🧹" }, async (dest,
 });
 
 // COMMAND TO GRUP INFO
-ezra({ nomCom: "info", categorie: 'Fredi-Group' }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "info", categorie: 'TEDDY-XMD-Group' }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, verifGroupe } = commandeOptions;
   if (!verifGroupe) { repondre("order reserved for the group only"); return };
 
@@ -427,7 +427,7 @@ ezra({ nomCom: "info", categorie: 'Fredi-Group' }, async (dest, zk, commandeOpti
 
 
  // COMMAND TO ACTVATE ANTILINK GROUP
- ezra({ nomCom: "antilink", categorie: 'jeepers creeper-xmd-Group', reaction: "🔗" }, async (dest, zk, commandeOptions) => {
+ ezra({ nomCom: "antilink", categorie: 'TEDDY-XMD-Group', reaction: "🔗" }, async (dest, zk, commandeOptions) => {
 
 
   var { repondre, arg, verifGroupe, superUser, verifAdmin } = commandeOptions;
@@ -495,7 +495,7 @@ ezra({ nomCom: "info", categorie: 'Fredi-Group' }, async (dest, zk, commandeOpti
 
  // COMMAND TO ACTIVATE ANTIBOT
 
- ezra({ nomCom: "antibot", categorie: 'Fredi-Group', reaction: "👾" }, async (dest, zk, commandeOptions) => {
+ ezra({ nomCom: "antibot", categorie: 'TEDDY-XMD-Group', reaction: "👾" }, async (dest, zk, commandeOptions) => {
 
 
   var { repondre, arg, verifGroupe, superUser, verifAdmin } = commandeOptions;
@@ -561,7 +561,7 @@ ezra({ nomCom: "info", categorie: 'Fredi-Group' }, async (dest, zk, commandeOpti
 
 // COMMAND TO GROUP ACTION OPN/CLS
 
-ezra({ nomCom: "group", categorie: 'Fredi-Group' }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "group", categorie: 'TEDDY-XMD-Group' }, async (dest, zk, commandeOptions) => {
 
   const { repondre, verifGroupe, verifAdmin, superUser, arg } = commandeOptions;
 
@@ -592,7 +592,7 @@ ezra({ nomCom: "group", categorie: 'Fredi-Group' }, async (dest, zk, commandeOpt
 });
 
 // COMMAND ACTION TO LEFT GROUP
-ezra({ nomCom: "left", categorie: "jeeper creeper-xnd-User" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "left", categorie: "TEDDY-XMD-User" }, async (dest, zk, commandeOptions) => {
 
   const { repondre, verifGroupe, superUser } = commandeOptions;
   if (!verifGroupe) { repondre("order reserved for group only"); return };
@@ -606,7 +606,7 @@ ezra({ nomCom: "left", categorie: "jeeper creeper-xnd-User" }, async (dest, zk, 
 });
 
 // COMMAND TO EDIT GROUP NAME
-ezra({ nomCom: "gname", categorie: 'Fredi-Group' }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "gname", categorie: 'TEDDY-XMD-Group' }, async (dest, zk, commandeOptions) => {
 
   const { arg, repondre, verifAdmin } = commandeOptions;
 
@@ -626,7 +626,7 @@ ezra({ nomCom: "gname", categorie: 'Fredi-Group' }, async (dest, zk, commandeOpt
 }) ;
 
 // COMMAND TO EDIT GROUP DESK
-ezra({ nomCom: "gdesc", categorie: 'jeepers creeper-xmd-Group' }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "gdesc", categorie: 'TEDDY-XMD-Group' }, async (dest, zk, commandeOptions) => {
 
   const { arg, repondre, verifAdmin } = commandeOptions;
 
@@ -646,7 +646,7 @@ ezra({ nomCom: "gdesc", categorie: 'jeepers creeper-xmd-Group' }, async (dest, z
 }) ;
 
 // COMMAND TO GET GROUP PROFILE PHOTO
-ezra({ nomCom: "gpp", categorie: 'jeepers creeper-xmd-Group' }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "gpp", categorie: 'TEDDY-XMD-Group' }, async (dest, zk, commandeOptions) => {
 
   const { repondre, msgRepondu, verifAdmin } = commandeOptions;
 
@@ -671,7 +671,7 @@ ezra({ nomCom: "gpp", categorie: 'jeepers creeper-xmd-Group' }, async (dest, zk,
 });
 
 // COMMAND TO TAG ALL MEMBERS
-ezra({nomCom:"tag",categorie:'jeepers creeper-xmd-Group',reaction:"🎤"},async(dest,zk,commandeOptions)=>{
+ezra({nomCom:"tag",categorie:'TEDDY-XMD-Group',reaction:"🎤"},async(dest,zk,commandeOptions)=>{
 
   const {repondre,msgRepondu,verifGroupe,arg ,verifAdmin , superUser}=commandeOptions;
 
@@ -736,7 +736,7 @@ ezra({nomCom:"tag",categorie:'jeepers creeper-xmd-Group',reaction:"🎤"},async(
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'JEEPERS CREEPER-XMD',
+          pack: 'TEDDY-XMD',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
@@ -779,7 +779,7 @@ ezra({nomCom:"tag",categorie:'jeepers creeper-xmd-Group',reaction:"🎤"},async(
 
 
 // COMMAND TO TAG ALL MEMBERS
-ezra({nomCom:"hidetag",categorie:'jeepers creper-xmd-Group',reaction:"🎤"},async(dest,zk,commandeOptions)=>{
+ezra({nomCom:"hidetag",categorie:'TEDDY-XMD-Group',reaction:"🎤"},async(dest,zk,commandeOptions)=>{
 
   const {repondre,msgRepondu,verifGroupe,arg ,verifAdmin , superUser}=commandeOptions;
 
@@ -844,7 +844,7 @@ ezra({nomCom:"hidetag",categorie:'jeepers creper-xmd-Group',reaction:"🎤"},asy
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'jeepers creeper-xmd',
+          pack: 'TEDDY-XMD',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
@@ -887,7 +887,7 @@ ezra({nomCom:"hidetag",categorie:'jeepers creper-xmd-Group',reaction:"🎤"},asy
 
 
 // COMMAND TO TAG ALL MEMBERS
-ezra({nomCom:"htag",categorie:'jeepers creeper-Group',reaction:"🎤"},async(dest,zk,commandeOptions)=>{
+ezra({nomCom:"htag",categorie:'TEDDY-XMD-Group',reaction:"🎤"},async(dest,zk,commandeOptions)=>{
 
   const {repondre,msgRepondu,verifGroupe,arg ,verifAdmin , superUser}=commandeOptions;
 
@@ -952,7 +952,7 @@ ezra({nomCom:"htag",categorie:'jeepers creeper-Group',reaction:"🎤"},async(des
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'JEEPERS CREEPER-XMD',
+          pack: 'TEDDY-XMD',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
@@ -1001,7 +1001,7 @@ const cron = require(`../luckydatabase/cron`) ;
 
 ezra({
       nomCom : 'automute',
-      categorie : 'jeepers creeper-Group'
+      categorie : 'TEDDY-XMD-Group'
   } , async (dest,zk,commandeOptions) => {
 
       const {arg , repondre , verifAdmin } = commandeOptions ;
@@ -1073,7 +1073,7 @@ ezra({
 
   ezra({
     nomCom : 'autounmute',
-    categorie : 'jeepers creeper-Group'
+    categorie : 'TEDDY-XMD-Group'
 } , async (dest,zk,commandeOptions) => {
 
     const {arg , repondre , verifAdmin } = commandeOptions ;
@@ -1150,7 +1150,7 @@ ezra({
 // COMMAND TO KICK
 ezra({
   nomCom : 'fkick',
-  categorie : 'jeepers-Group'
+  categorie : 'TEDDY-XMD-Group'
 } , async (dest,zk,commandeOptions) => {
 
   const {arg , repondre , verifAdmin , superUser , verifezraAdmin } = commandeOptions ;
@@ -1184,7 +1184,7 @@ ezra({
 // COMMAND TO NSFW
 ezra({
       nomCom : 'nsfw',
-      categorie : 'jeepers-Group'
+      categorie : 'TEDDY-XMD-Group'
 }, async (dest,zk,commandeOptions) => {
   
     const {arg , repondre , verifAdmin } = commandeOptions ;
