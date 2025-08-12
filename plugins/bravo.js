@@ -9,7 +9,7 @@ const {
 ezra({
   'nomCom': "wagroup",
   'reaction': '🤨',
-  'categorie': "sir bravin Support",
+  'categorie': "TEDDY-XMD Support",
   'nomFichier': __filename
 }, async (_0x3258e7, _0x4c4732, _0x13b70c) => {
   console.log("Commande saisie !!!s");
@@ -203,7 +203,7 @@ ezra({
 }, async (_0x14c950, _0x346e6b, _0x31cbea) => {
   console.log("Commande saisie !!!s");
   await _0x346e6b.sendMessage(_0x14c950, {
-    'text': "Hello 👋\n\nClick on the photo below to connect the OFFICIAL *JEEPERS TEDDY-XMD* Telegram Inbox",
+    'text': "Hello 👋\n\nClick on the photo below to connect the OFFICIAL *TEDDY-XMD* Telegram Inbox",
     'contextInfo': {
       'externalAdReply': {
         'sourceUrl': 'https://t.me/teddy_md,

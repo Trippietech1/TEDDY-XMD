@@ -16,7 +16,7 @@ function getDescriptionFromEnv(varName) {
 // Anti-call function setup
 ezra({
   nomCom: 'anticall',
-  categorie: "bravo-Mods"
+  categorie: "TEDDY-XMD-Mods"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -58,7 +58,7 @@ ezra({
 
 ezra({
   nomCom: 'autoreact',
-  categorie: "bravo-Mods"
+  categorie: "TEDDY-XMD-Mods"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -99,7 +99,7 @@ ezra({
 
 ezra({
   nomCom: 'autoreadstatus',
-  categorie: "bravo-Mods"
+  categorie: "TEDDY-XMD-Mods"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -139,7 +139,7 @@ ezra({
 });
 ezra({
   nomCom: 'antidelete',
-  categorie: "bravo-Mods"
+  categorie: "TEDDY-XMD-Mods"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -180,7 +180,7 @@ ezra({
 
 ezra({
   nomCom: 'autodownloadstatus',
-  categorie: "bravo-Mods"
+  categorie: "TEDDY-XMD-Mods"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -221,13 +221,13 @@ ezra({
 
 ezra({
   nomCom: 'startingmessage',
-  categorie: "bravo-Mods"
+  categorie: "TEDDY-XMD-Mods"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or sir bravin owner.* 🤦,,bois");
+    return repondre("*This command is restricted to the bot owner or Teddy xmd owner.* 🤦,,bois");
   }
 
   // Validate user input and respond accordingly
@@ -303,7 +303,7 @@ ezra({
 
 ezra({
   nomCom: 'pm-permit',
-  categorie: "bravo-Mods"
+  categorie: "TEDDY-XMD-Mods"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -383,7 +383,7 @@ ezra({
 });
 ezra({
   nomCom: 'autoreply',
-  categorie: "bravo-Mods"
+  categorie: "TEDDY-XMD-Mods"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -424,7 +424,7 @@ ezra({
 
 ezra({
   nomCom: 'autobio',
-  categorie: "bravo-Mods"
+  categorie: "TEDDY-XMD-Mods"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -465,7 +465,7 @@ ezra({
 
 ezra({
   nomCom: 'publicmode',
-  categorie: "bravo-Mods"
+  categorie: "TEDDY-XMD-Mods"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -506,7 +506,7 @@ ezra({
 
 ezra({
   nomCom: 'autorecord',
-  categorie: "bravo-Mods"
+  categorie: "TEDDY-XMD-Mods"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -547,7 +547,7 @@ ezra({
 
 ezra({
   nomCom: 'autotyping',
-  categorie: "bravo-Mods"
+  categorie: "TEDDY-XMD-Mods"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -588,7 +588,7 @@ ezra({
 
 ezra({
   nomCom: 'alwaysonline',
-  categorie: "bravo-Mods"
+  categorie: "TEDDY-XMD-Mods"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 

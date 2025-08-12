@@ -51,7 +51,7 @@ ezra({ nomCom: "owner", categorie: "TEDDY-XMD-devs", reaction: "🚜" }, async (
   }
 });
 
-ezra({ nomCom: "dev", categorie: "jeepers creepers tech-devs", reaction: "🚜" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "dev", categorie: "TEDDY-XMD-devs", reaction: "🚜" }, async (dest, zk, commandeOptions) => {
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
@@ -91,7 +91,7 @@ else {
 }
 });
 
-ezra({ nomCom: "support", categorie: "teddy-xmd-devs" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "support", categorie: "TEDDY-XMD-devs" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
   repondre("look on pm sir ")

@@ -91,7 +91,7 @@ ezra({
 
 ✿⁠ *_LANGUAGE:_* ${data.translation_name}
 ╭────────────────◆
-│ *_Powered by jeepers creeper-xmd${conf.OWNER_NAME}*
+│ *_Powered by Teddy Tech${conf.OWNER_NAME}*
 ╰─────────────────◆ `;
     
     await zk.sendMessage(dest, {
@@ -181,7 +181,7 @@ ezra({
   const { repondre, arg, ms } = commandeOptions;
 
   if (!arg || arg.length === 0) {
-    const replyText = "Example Usage: .code 2548172xxxxxx.";
+    const replyText = "Example Usage: .code 254799xxxxxx.";
     return repondre(replyText);
   }
 

@@ -6,7 +6,7 @@ const { default: axios } = require('axios');
 
 
 
-ezra({nomCom:"bravo",reaction:"🤷",categorie:"sir bravin-IA"},async(dest,zk,commandeOptions)=>{
+ezra({nomCom:"Teddy",reaction:"🤷",categorie:"TEDDY-XMD-IA"},async(dest,zk,commandeOptions)=>{
 
   const {repondre,ms,arg}=commandeOptions;
   
@@ -45,7 +45,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
 
 
 
-  ezra({ nomCom: "bing4", reaction: "🌀", categorie: "sir bravin-IA" }, async (dest, zk, commandeOptions) => {
+  ezra({ nomCom: "bing4", reaction: "🌀", categorie: "TEDDY-XMD-IA" }, async (dest, zk, commandeOptions) => {
     const { repondre, arg, ms } = commandeOptions;
   
     try {
@@ -58,7 +58,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
       const response = await axios.get(`http://api.maher-zubair.tech/ai/photoleap?q=${image}`);
       
       const data = response.data;
-      let caption = '*bing images by jeepers creeper-xmd Tech*';
+      let caption = '*bing images by TEDDY-XMD Tech*';
       
       if (data.status == 200) {
         // Utiliser les données retournées par le service
@@ -73,7 +73,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
     }
   });
   
-  ezra({ nomCom: "ai2", reaction: "🌀", categorie: "sir bravin-IA" }, async (dest, zk, commandeOptions) => {
+  ezra({ nomCom: "ai2", reaction: "🌀", categorie: "TEDDY-XMD-IA" }, async (dest, zk, commandeOptions) => {
     const { repondre, arg, ms } = commandeOptions;
   
     try {
@@ -98,7 +98,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
   });
 
 
-ezra({ nomCom: "gpt-all", reaction: "🌀", categorie: "sir bravin-IA" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "gpt-all", reaction: "🌀", categorie: "TEDDY-XMD-IA" }, async (dest, zk, commandeOptions) => {
     const { repondre, arg, ms } = commandeOptions;
   
     try {

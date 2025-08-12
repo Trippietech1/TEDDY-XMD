@@ -39,7 +39,7 @@ const date = moment().format('DD/MM/YYYY');
 *Mode* : ${mode}
 *Date* : ${date}
 *Hours(GMT)* : ${temps}
-*From* : Tanzania
+*From* : Kenya
 *Bot* : ${s.bot} 
 *Forks* : ${forks} 
 
