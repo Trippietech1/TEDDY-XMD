@@ -4,7 +4,7 @@ const {
 const tagCommands = [{
   'nomCom': "tagallmembers",
   'filter': () => true,
-  'title': "📣 TEDDY XMD TAG ALL MEMBERS"
+  'title': "📣 TEDDY-XMD TAG ALL MEMBERS"
 }, {
   'nomCom': "tagadmins",
   'filter': (_0x12fd26, _0x4cf701) => _0x4cf701.includes(_0x12fd26.id),
@@ -25,7 +25,7 @@ tagCommands.forEach(({
 }) => {
   ezra({
     'nomCom': _0x4b759c,
-    'categorie': "sir bravin-Group",
+    'categorie': "TEDDY-XMD-Group",
     'reaction': '📯'
   }, async (_0xee4deb, _0x33ee23, _0x560988) => {
     const {

@@ -19,7 +19,7 @@ ezra({ nomCom: 'quote', categorie: 'Group' }, async (dest, zk, commandeOptions) 
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by *frediezra*`);
+Powered by *Teddy Tech*`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);

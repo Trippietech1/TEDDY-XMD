@@ -29,7 +29,7 @@ D ☞ tiger 🐯 video logo
       mentionedJid: [ms.sender], // Mention the sender
       externalAdReply: {
         title: "TEDDY-XMD",
-        body: "Credits Teddy",
+        body: "TEDDY-XMD",
         thumbnailUrl: "https://files.catbox.moe/a0mj3n.jpg",
         sourceUrl: "https://whatsapp.com/channel/0029Vb6NveDBPzjPa4vIRt3n",
         mediaType: 1,
@@ -80,7 +80,7 @@ D ☞ tiger 🐯 video logo
           await zk.sendMessage(dest, {
             video: { url: logoUrl },
             mimetype: "video/mp4",
-            caption: `> *Downloaded by TEDDY-XMD Bot*`,
+            caption: `> *Downloaded by TEDDY-XMD*`,
           }, { quoted: ms });
         }
       }

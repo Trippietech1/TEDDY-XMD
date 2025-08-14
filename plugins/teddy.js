@@ -4,7 +4,7 @@ const { ezra } = require('../fredi/ezra');
 let teddyState = {};
 
 ezra({
-  nomCom: "teddy",
+  nomCom: "teddy1",
   type: "fun",
   info: "Cute teddy command for TEDDY-XMD project",
   on: "text",
@@ -14,7 +14,7 @@ ezra({
   const { message, reply, match } = commandeOptions;
   
   // Check trigger condition: if the message contains "teddy" (case-insensitive)
-  let triggerTeddy = (match && match.toLowerCase().includes("teddy"));
+  let triggerTeddy = (match && match.toLowerCase().includes("teddy1"));
   
   // Use message.chat as a unique key per group/chat
   if (triggerTeddy && !teddyState[message.chat]) {

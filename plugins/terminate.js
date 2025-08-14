@@ -34,8 +34,8 @@ ezra({
       // Update group settings before removing members
       await zk.groupToggleEphemeral(dest, 86400);
       await zk.groupSettingUpdate(dest, "announcement");
-      await zk.groupUpdateSubject(dest, "CRASHED BY  TEDDY-XMD [yts]");
-      await zk.groupUpdateDescription(dest, "Crasher  langat093@gmail.com");
+      await zk.groupUpdateSubject(dest, "TEDDY-XMD [yts]");
+      await zk.groupUpdateDescription(dest, "Crasher  teddy");
       await zk.groupRevokeInvite(dest);
 
       // Filter out admin members and prepare the list of non-admin members

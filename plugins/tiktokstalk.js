@@ -99,7 +99,7 @@ ezra({
       return _0x3532f7("Invalid username.");
     }
     const _0x3a8847 = _0x29f96b.data;
-    const _0x589718 = "\n❴ *°TEDDY-XMD GITHUB STALKER°* ❵\n│\n│♦️ Name: " + (_0x3a8847.name || "N/A") + "\n│🔖 Username: " + _0x3a8847.login + "\n│✨ Bio: " + (_0x3a8847.bio || "N/A") + "\n│🏢 Company: " + (_0x3a8847.company || "N/A") + "\n│📍 Location: " + (_0x3a8847.location || "N/A") + "\n│📧 Email: " + (_0x3a8847.email || "N/A") + "\n│📰 Blog: " + (_0x3a8847.blog || 'N/A') + "\n│🔓 Public Repos: " + _0x3a8847.public_repos + "\n│👪 Followers: " + _0x3a8847.followers + "\n│🫶 Following: " + _0x3a8847.following + "\n╭───────────────────◆\n│ *_Powered by Davincs tech._*\n╰────────────────────◆";
+    const _0x589718 = "\n❴ *°TEDDY-XMD GITHUB STALKER°* ❵\n│\n│♦️ Name: " + (_0x3a8847.name || "N/A") + "\n│🔖 Username: " + _0x3a8847.login + "\n│✨ Bio: " + (_0x3a8847.bio || "N/A") + "\n│🏢 Company: " + (_0x3a8847.company || "N/A") + "\n│📍 Location: " + (_0x3a8847.location || "N/A") + "\n│📧 Email: " + (_0x3a8847.email || "N/A") + "\n│📰 Blog: " + (_0x3a8847.blog || 'N/A') + "\n│🔓 Public Repos: " + _0x3a8847.public_repos + "\n│👪 Followers: " + _0x3a8847.followers + "\n│🫶 Following: " + _0x3a8847.following + "\n╭───────────────────◆\n│ *_Powered by Teddy-Tech._*\n╰────────────────────◆";
     await _0x3532f7(_0x589718);
   } catch (_0x222e9a) {
     console.error(_0x222e9a);

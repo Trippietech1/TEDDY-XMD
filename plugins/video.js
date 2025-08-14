@@ -79,7 +79,7 @@ ezra({ nomCom: "videologo", categorie: "General", reaction: "🔖" }, async (des
           await zk.sendMessage(dest, {
             video: { url: logoUrl },
             mimetype: "video/mp4",
-            caption: `> *Downloaded by ☢️ TEDDY-XMD ☢️*`,
+            caption: `> *Downloaded by ☢️ TEDDY-XMD✴️*`,
           }, { quoted: ms });
         }
       }

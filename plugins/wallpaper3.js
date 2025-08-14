@@ -16,7 +16,7 @@ ezra({
     'image': {
       'url': "https://files.catbox.moe/huzqts.jpg"
     },
-    'caption': "🚗𝗥𝗮𝗻𝗱𝗼𝗺 𝘄𝗮𝗹𝗹𝗽𝗮𝗽𝗲𝗿 \n\n 🚗Download it and set it to your wallpaper 𝗙𝗿𝗼𝗺 (TEDDY-XMD)🚗MADE BY TEDDY TECH "
+    'caption': "🚗𝗥𝗮𝗻𝗱𝗼𝗺 𝘄𝗮𝗹𝗹𝗽𝗮𝗽𝗲𝗿 \n\n 🚗Download it and set it to your wallpaper 𝗙𝗿𝗼𝗺 (TEDDY-XMD)🚗MADE BY TEDDY-XMD 𝗧𝗘𝗖𝗛"
   });
 });
 console.log("mon test");

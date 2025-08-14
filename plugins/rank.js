@@ -146,7 +146,7 @@ ezra( {
 
     *Messages :* ${rank.messages}
     
-   ┕━✿━┑ Teddy Tech ┍━✿━┙`
+   ┕━✿━┑ TEDDY-XMD Tech ┍━✿━┙`
     
      zk.sendMessage( 
         dest,
@@ -222,7 +222,7 @@ ezra( {
 
   *Messages :* ${rang.messages}
 
-   ┕━✿━┑TEDDY-XMD Tech ┍━✿━┙`
+   ┕━✿━┑ TEDDY-XMD Tech ┍━✿━┙`
     
      zk.sendMessage( 
         dest,
@@ -251,7 +251,7 @@ ezra( {
     const {ms , mybotpic} = commandeOptions ;
 
 
-       let msg = `┏━━┛ TEDDY-XMD ┗━━┓\n\n`
+       let msg = `┏━━┛ TEDDY-XMD Md┗━━┓\n\n`
        
       let topRanks = await getBottom10Users() ;
         let mention = [] ;

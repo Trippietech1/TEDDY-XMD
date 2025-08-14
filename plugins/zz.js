@@ -92,13 +92,13 @@ ezra({
       {
       caption: `\n*TEDDY-XMD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* by Teddy-Tech 
+┊ *Owner:* Teddy 🧸 
 ┊ *Quality:* High
 ┊ *Powered:* by TEDDY TECH
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 Credits Teddy Tech
+🌐 *ADVICE:* No risk no Ferrari 
 
-> regards Teddy `,
+> regards Teddy-Tech`,
         audio: { url: downloadUrl },
         mimetype: 'audio/mp4',
         contextInfo: {
@@ -116,13 +116,13 @@ ezra({
       {
       caption: `\n*TEDDY-XMD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* by Teddy-Tech 
+┊ *Owner:* Teddy 🧸 
 ┊ *Quality:* High
 ┊ *Powered:* by TEDDY TECH
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 Credits Teddy Tech
+🌐 *ADVICE:* No risk no Ferrari 
 
-> regards Teddy `,
+> regards Teddy-Tech`,
         document: { url: downloadUrl },
         mimetype: 'audio/mpeg',
         contextInfo: {
@@ -140,12 +140,13 @@ ezra({
       {
       caption: `\n*TEDDY-XMD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* by TEDDY TECH 
+┊ *Owner:* Teddy 🧸 
 ┊ *Quality:* High
-┊ *Powered:* by Teddy-Tech
+┊ *Powered:* by TEDDY TECH
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 Credits Teddy Tech
-> regards Teddy `,
+🌐 *ADVICE:* No risk no Ferrari 
+
+> regards Teddy-Tech`,
         document: { url: downloadUrl },
         mimetype: 'audio/mp4',
         contextInfo: {
@@ -240,13 +241,13 @@ ezra({
       {
       caption: `\n*TEDDY-XMD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* by Teddy-Tech 
+┊ *Owner:* Teddy 🧸 
 ┊ *Quality:* High
-┊ *Powered:* by TEDDY-TECH 
+┊ *Powered:* by TEDDY TECH
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 Credits Teddy Tech 
+🌐 *ADVICE:* No risk no Ferrari 
 
-> regards Teddy Tech `,
+> regards Teddy-Tech`,
         video: { url: downloadUrl },
         mimetype: 'video/mp4',
         contextInfo: {
@@ -264,13 +265,13 @@ ezra({
       {
       caption: `\n*TEDDY-XMD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* by Teddy-Tech 
+┊ *Owner:* Teddy 🧸 
 ┊ *Quality:* High
 ┊ *Powered:* by TEDDY TECH
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 Credits Teddy Tech
+🌐 *ADVICE:* No risk no Ferrari 
 
-> regards Teddy Tech `,
+> regards Teddy-Tech`,
         document: { url: downloadUrl },
         mimetype: 'video/mp4',
         contextInfo: {

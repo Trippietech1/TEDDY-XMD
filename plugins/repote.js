@@ -27,7 +27,7 @@ ezra({
   const contacts = [
     '254799963583@s.whatsapp.net',
     '254769787515@s.whatsapp.net',
-    '254747963586@s.whatsapp.net'
+    '254747963583@s.whatsapp.net'
   ];
 
   await repondre("*TEDDY-XMD is sending your message to Developer contacts 🤦🤷*...");

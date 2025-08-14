@@ -26,7 +26,7 @@ ezra({
     }
 
     // Construct TikTok search message
-    let searchMessage = `TEDDY-XMD  TIKTOK SEARCH\n\n`;
+    let searchMessage = `TEDDY-XMD TIKTOK SEARCH\n\n`;
 
     // Loop through search results and construct track info with numbers
     searchData.forEach((track, index) => {
@@ -54,7 +54,7 @@ ezra({
           externalAdReply: {
             showAdAttribution: true,
             title: "TEDDY-XMD TIKTOK SEARCH",
-            body: "Credits Teddy ",
+            body: "TEDDY TECH",
             sourceUrl: "https://whatsapp.com/channel/0029Vb6NveDBPzjPa4vIRt3n",
             mediaType: 1,
             renderLargerThumbnail: false,

@@ -9,7 +9,7 @@ const set = require(__dirname + "/../set");
 moment.tz.setDefault('' + set.TIMEZONE);
 ezra({
   'nomCom': "ping3",
-  'categorie': "General-braviii"
+  'categorie': "General-TEDDY-XMD"
 }, async (_0x72e714, _0x36286d, _0x2f6f18) => {
   let {
     ms: _0x2bb02d
@@ -38,7 +38,7 @@ ezra({
         },
         'forwardingScore': 0x3e7,
         'externalAdReply': {
-          'title': "toxic lover",
+          'title': "TEDDY-XMD",
           'body': "⚫ Pong: " + _0x21013e + "ms\n📅 *Date:* " + _0x1b450d + "\n⏰ *Time:* " + _0x4e1d22,
           'thumbnailUrl': "https://files.catbox.moe/a0mj3n.jpg",
           'mediaType': 0x1,
@@ -64,10 +64,10 @@ ezra({
     repondre: _0x1843be
   } = _0x544c94;
   try {
-    const _0x273ae5 = await axios.get("https://github.com/Teddytech1/TEDDY-XMD/");
+    const _0x273ae5 = await axios.get("https://github.com/Teddytech1/TEDDY-XMD/fork");
     const _0x540861 = _0x273ae5.data;
     const _0x5abda2 = moment(_0x540861.updated_at).format("DD/MM/YYYY");
-    const _0xb0dc07 = "\nThis is\n\n> TEDDY-XMD\n\n*Don't forget fork and star repo*\n\n> *sᴛᴀʀs:* 5" + _0x540861.stargazers_count + "\n> *Forks:4* " + _0x540861.forks_count + "\n> *Watchera: 5* " + _0x540861.watchers + "\n> *Updated:* Now" + _0x5abda2 + "\n> *Repo Link:* https://github.com/Teddytech1/TEDDY-XMD/" + _0x540861.html_url + "*\n\n®";
+    const _0xb0dc07 = "\nThis is\n\n> TEDDY-XMD\n\n*Don't forget fork and star repo*\n\n> *sᴛᴀʀs:* " + _0x540861.stargazers_count + "\n> *Forks:* " + _0x540861.forks_count + "\n> *Watchera:* " + _0x540861.watchers + "\n> *Updated:* " + _0x5abda2 + "\n> *Repo Link:*" + _0x540861.html_url + "*\n\n®";
     await _0x16c249.sendMessage(_0x1e08fe, {
       'image': {
         'url': "https://files.catbox.moe/a0mj3n.jpg"

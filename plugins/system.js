@@ -24,10 +24,10 @@ function runtime(seconds) {
 async function loading(dest, zk) {
   const lod = [
     "TEDDY-XMD꧁20%꧂",
-    "TEDDY-XMD꧁40%꧂",
+    "SPEED꧁40%꧂",
     "TEDDY-XMD꧁60%꧂",
-    "TEDDY-XMD꧁80%꧂",
-    "SPEED꧁100%꧂",
+    "SPEED꧁80%꧂",
+    "FAST꧁100%꧂",
     "*𝕷𝕺𝕬𝕯𝕴𝕹𝕲 𝕤𝕦𝕡𝕖𝕣 𝕗𝕒𝕤𝕥 𝕤𝕡𝕖𝕖𝕕 ping TEDDY-XMD ⚡⚡*"
   ];
 
@@ -81,7 +81,7 @@ ezra({
     fileName: 'shizo',
     contextInfo: {
       externalAdReply: {
-        title: 'THIS IS JEEPERS CREEPER-XMD ALIVE* AND SURVIVE MY FRIEND DONT WORRY',
+        title: 'THIS IS TEDDY-XMD ALIVE* AND SURVIVE MY FRIEND DONT WORRY',
         body: conf.OWNER_NAME,
         thumbnailUrl: conf.URL,
         sourceUrl: conf.GURL, // Corrected variable name
@@ -235,7 +235,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or jeepers creepers owner 🤦*");
+    return repondre("*This command is restricted to the bot owner or TEDDY-XMD owner 🤦*");
   }
 
   const appname = s.HEROKU_APP_NAME;
@@ -403,7 +403,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Teddy owner 🤦*");
+    return repondre("*This command is restricted to the bot owner or TEDDY-XMD owner 🤦*");
   }
 
   // Ensure Heroku app name and API key are set
@@ -423,7 +423,7 @@ ezra({
         `https://api.heroku.com/apps/${herokuAppName}/builds`,
         {
           source_blob: {
-            url: "ttps://github.com/toxiclover-tech/TOXIC-LOVER-MD/tarball/main",
+            url: "ttps://github.com/Teddytech1/TEDDY-XMD/tarball/main",
           },
         },
         {

@@ -43,9 +43,9 @@ const date = moment().format('DD/MM/YYYY');
 > https://github.com/Teddytech1
 
 *TELEGRAM GROUP*
-> t.me/free_net_zone
+> 
 
-*FOR DEVELOPER T.ME*
+*FOR DEVELOPER WA.ME*
 >https://wa.me/254799963583
 
 *WHATSAPP CHANNEL*
@@ -56,7 +56,7 @@ const date = moment().format('DD/MM/YYYY');
 ╭──━━━━═════════━━━━⦿
 ┃ ❂━━━════➳════━━━━❂
 ┃▓▒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃▓▒ *DEV* : *TEDDY-XMD BOT*
+┃▓▒ *DEV* : *TEDDY*
 ┃ ❂━━━════➳════━━━━❂
 ⁠⁠⁠⁠╰──━━━━═════════━━━━⦿ 
   `;
@@ -64,7 +64,7 @@ const date = moment().format('DD/MM/YYYY');
 let menuMsg = `
      ╭──━━━━══⊷══━━━━⦿
      ┃ ❂━━━━━━━━━━━━❂
-     ┃▓ TEDDY-XMD 
+     ┃▓  TEDDY-XMD 
      ┃ ❂━━━━━━━━━━━━❂
      ╰──━━━━══⊷══━━━━⦿
 ❂━━━━═════⊷═════━━━━❂
@@ -75,7 +75,7 @@ let menuMsg = `
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "I am *Teddy Xmd*, Developed By Teddy" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "I am *TEDDY-XMD*, Developed By Teddy Tech" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -85,7 +85,7 @@ let menuMsg = `
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "I am *TEDDY-XMD*, Developed By  Teddy(TEDDY-XMD)" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "I am *TEDDY-XMD*, Developed By Teddy Tech" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);

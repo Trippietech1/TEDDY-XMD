@@ -47,7 +47,7 @@ ezra({
           externalAdReply: {
             showAdAttribution: true,
             title: "TEDDY-XMD SPOTIFY PLAY",
-            body: "Credits Teddy",
+            body: "Credit by TEDDY-XMD TECH",
             sourceUrl: "https://whatsapp.com/channel/0029Vb6NveDBPzjPa4vIRt3n",
             mediaType: 1,
             renderLargerThumbnail: false,

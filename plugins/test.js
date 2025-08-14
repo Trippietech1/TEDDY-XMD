@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { ezra } = require("../fredi/ezra");
 const { conf } = require('../set')
 ezra(
-    { nomCom: "luckymd", reaction: "👊", nomFichier: __filename },
+    { nomCom: "teddy", reaction: "👊", nomFichier: __filename },
     async (dest, zk, commandeOptions) => {
         console.log("Commande saisie !!!s");
         let z =
@@ -41,7 +41,7 @@ const sentMsg1  = await zk.sendMessage(dest, { text: 'Oh! Hi There' })
 // send a reply messagge
 const sentMsg2  = await zk.sendMessage(dest, { text: 'Oh! Hi There' }, { quoted: ms })
 // send a mentions message
-const sentMsg3  = await zk.sendMessage(dest, { text: '@254799963583', mentions: ['12345678901@s.whatsapp.net'] })
+const sentMsg3  = await zk.sendMessage(dest, { text: '@254799963586', mentions: ['12345678901@s.whatsapp.net'] })
 // send a location!
 const sentMsg4  = await zk.sendMessage(
     dest, 
@@ -50,7 +50,7 @@ const sentMsg4  = await zk.sendMessage(
 // send a contact!
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:F Teddy@Tech\n' // full name
+            + 'FN:F Sir @Davincs\n' // full name
             + 'ORG:Ashoka Uni;\n' // the organization of the contact
             + 'TEL;type=CELL;type=VOICE;waid=255759637644:+255656582542\n' // WhatsApp ID + phone number
             + 'END:VCARD'

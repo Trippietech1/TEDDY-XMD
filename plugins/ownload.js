@@ -26,7 +26,7 @@ module.exports = [
   name: 'tiktok3',
   aliases: ['tk', 'tiktokdl'],
   description: 'Download TikTok media by link.',
-  category: 'Download-sir',
+  category: 'Download-TEDDY-XMD',
 
   execute: async (king, msg, args, fromJid) => {
     const query = args.join(' ').trim();
@@ -71,7 +71,7 @@ module.exports = [
   name: 'insta2',
   aliases: ['igdl', 'ig', 'instagram'],
   description: 'Download media from an Instagram link.',
-  category: 'Download-sir',
+  category: 'Download-TEDDY-XMD',
 
   get flashOnly() {
     return franceking();
@@ -151,12 +151,12 @@ module.exports = [
         if (item.type === 'image') {
           await king.sendMessage(fromJid, {
             image: { url: item.url },
-            caption: `📸 _✨ Downloaded by JEEPERS CREEPER-XMD_`
+            caption: `📸 _✨ Downloaded by TEDDY-XMD_`
           }, { quoted: msg });
         } else if (item.type === 'video') {
           await king.sendMessage(fromJid, {
             video: { url: item.url },
-            caption: `🎥 _✨ Downloaded by JEEPERS CREEPER-XMD_`
+            caption: `🎥 _✨ Downloaded by TEDDY-XMD_`
           }, { quoted: msg });
         }
       }

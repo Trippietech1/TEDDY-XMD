@@ -61,7 +61,7 @@ ezra({
         'url': "https://files.catbox.moe/a0mj3n.jpg"
       },
       'caption': _0x2d2a24,
-      'footer': "©TKM INC"
+      'footer': "© TEDDY INC"
     }, {
       'quoted': _0xba9598
     });

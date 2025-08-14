@@ -73,7 +73,7 @@ ezra({ nomCom: "logo", categorie: "Search", reaction: "🤭" }, async (dest, zk,
         title: "🍂 TEDDY-XMD",
         body: "Regards, ",
         thumbnailUrl: "https://files.catbox.moe/a0mj3n.jpg",
-        sourceUrl: "https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g",
+        sourceUrl: "https://whatsapp.com/channel/0029Vb6NveDBPzjPa4vIRt3n",
         mediaType: 1,
         renderLargerThumbnail: true,
       },
@@ -258,7 +258,7 @@ ezra({ nomCom: "logo", categorie: "Search", reaction: "🤭" }, async (dest, zk,
         if (logoUrl) {
           await zk.sendMessage(dest, {
             image: { url: logoUrl },
-            caption: `*Created logo by TEDDY XMD*`,
+            caption: `*Created logo by TEDDY-XMD*`,
           }, { quoted: ms });
         }
       }

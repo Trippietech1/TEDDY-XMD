@@ -26,7 +26,7 @@ const {
 } = require("../lib/warn");
 ezra({
   'nomCom': "antitag",
-  'categorie': "Fredi-Settings",
+  'categorie': "TEDDY-XMD-Settings",
   'reaction': '⚙️'
 }, async (_0x489328, _0x495188, _0xf1b4e8) => {
   const {
@@ -36,7 +36,7 @@ ezra({
     superUser: _0x52e750
   } = _0xf1b4e8;
   if (!_0x25588b && !_0x52e750) {
-    return _0x213880("sir bravin Admin only command.");
+    return _0x213880("TEDDY-XMD Admin only command.");
   }
   let _0x287992 = {};
   if (fs.existsSync("./fredie/anti.json")) {
@@ -48,11 +48,11 @@ ezra({
   }
   _0x287992.ANTI_TAG = _0x28c5b7;
   fs.writeFileSync("./fredie/anti.json", JSON.stringify(_0x287992, null, 2));
-  _0x213880("✅ JEEPERS CREEPER XMD ANTI_TAG mode is now: " + _0x28c5b7);
+  _0x213880("✅ TEDDY-XMD ANTI_TAG mode is now: " + _0x28c5b7);
 });
 ezra({
   'nomCom': "antimentiongroup",
-  'categorie': "bravin-Settings",
+  'categorie': "TEDDY-XMD-Settings",
   'reaction': '⚙️'
 }, async (_0x4b371e, _0x3609f4, _0x13cda4) => {
   const {
@@ -74,11 +74,11 @@ ezra({
   }
   _0x196b13.ANTI_MENTION_GROUP = _0x5b8407;
   fs.writeFileSync("./fredie/anti.json", JSON.stringify(_0x196b13, null, 2));
-  _0x2d241f("✅ JEEPERS CREEPER XMD ANTI_MENTION_GROUP is now: *" + _0x5b8407.toUpperCase() + '*');
+  _0x2d241f("✅ TEDDY-XMD ANTI_MENTION_GROUP is now: *" + _0x5b8407.toUpperCase() + '*');
 });
 ezra({
   'nomCom': "anti-link",
-  'categorie': "bravin-Settings",
+  'categorie': "TEDDY-XMD-Settings",
   'reaction': '⚙️'
 }, async (_0x2524a7, _0x97d855, _0x4e3710) => {
   const {
@@ -104,7 +104,7 @@ ezra({
 });
 ezra({
   'nomCom': "antishare",
-  'categorie': "bravin-Settings",
+  'categorie': "TEDDY-XMD-Settings",
   'reaction': '⚙️'
 }, async (_0x9a2619, _0xc3fb10, _0x1ff175) => {
   const {
@@ -126,5 +126,5 @@ ezra({
   }
   _0x4cf4ca.ANTI_SHARE_GROUP = _0x3af957;
   fs.writeFileSync("./fredie/anti.json", JSON.stringify(_0x4cf4ca, null, 2));
-  _0xb02e68("✅ TEDDY XMD ANTI_SHARE_GROUP is now: *" + _0x3af957.toUpperCase() + '*');
+  _0xb02e68("✅ TEDDY-XMD ANTI_SHARE_GROUP is now: *" + _0x3af957.toUpperCase() + '*');
 });
