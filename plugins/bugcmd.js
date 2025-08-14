@@ -18,7 +18,7 @@ const { bugtext5 } = require("../fredi/fredi/bugtext5");
 const { bugtext6 } = require("../fredi/fredi/bugtext6");
 const { bugpdf } = require("../fredi/fredi/bugpdf.js");
 
-const category = "bravin Crush";
+const category = "TEDDY-XMD Crush";
 const reaction = "🤯";
 
 const mess = {};
@@ -168,7 +168,7 @@ ${timewisher(time)}
                                 externalAdReply: {
                                     showAdAttribution: true,
                                     title: `${conf.BOT}`,
-                                    body: `Bot Created By sir bravin${conf.OWNER_NAME}`,
+                                    body: `Bot Created By Teddy${conf.OWNER_NAME}`,
                                     thumbnail: { url: tumbUrl },
                                     thumbnailUrl: tumbUrl,
                                     previewType: "PHOTO",
