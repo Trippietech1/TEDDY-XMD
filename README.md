@@ -16,7 +16,7 @@
 
 <!-- Get Session ID -->
 <p align="center">
-  <a href="https://pairmakamesco.onrender.com" target="_blank">
+  <a href="https://teddy-xmd-session.onrender.com/" target="_blank">
     <img src="https://img.shields.io/badge/GET-SESSION%20ID%20HERE-green?style=for-the-badge&logo=kenya" alt="Get Session ID" width="230">
   </a>
 </p>
@@ -31,9 +31,7 @@
 <!-- 🧩 Extras -->
 <h2 align="center">🧩 Extras</h2>
 
-<ul align="center">
-  <li><strong>🔗 BOOST FOLLOWERS:</strong> <a href="https://makamescodigitalsolutions.com" target="_blank">makamescodigitalsolutions.com</a></li>
-  <li><strong>▶️ Tutorial Video:</strong> <a href="https://youtu.be.com" target="_blank">Watch how to add & boost</a></li>
-  <li><strong>💬 Need help?</strong> <a href="https://t.me/yourtelegramlink" target="_blank">Join our Telegram</a></li>
-  <li><strong>🔥 Promotion:</strong> Are you tired of getting small media presence? <br><em>Get followers, subscribers, likes, and views today!</em></li>
+  
+  <li><strong>💬 Need help?</strong> <a href="https://t.me/free_net_zone" target="_blank">Join our Telegram</a></li>
+  <li><strong>🔥 Promotion:</strong> Are you tired of buying weak panels? <br><em>Get free panels on our channel!</em></li>
 </ul>
