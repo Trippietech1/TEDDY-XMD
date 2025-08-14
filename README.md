@@ -16,8 +16,16 @@
 
 <!-- Get Session ID -->
 <p align="center">
-  <a href="https://teddy-xmd-session.onrender.com/" target="_blank">
-    <img src="https://img.shields.io/badge/GET-SESSION%20ID%20HERE-green?style=for-the-badge&logo=kenya" alt="Get Session ID" width="230">
+  <a href="https://pair-teddy-xmd-bot-9c24e41535ef.herokuapp.com/" target="_blank">
+    <img src="https://img.shields.io/badge/GET-SESSION%20ID%20HERE-green?style=for-the-badge&logo=kenya" alt="Get Session 🆔 1" width="230">
+  </a>
+</p>
+
+
+<!-- Get Session ID -->
+<p align="center">
+  <a href="https://pair-teddy-xmd-bot.onrender.com/" target="_blank">
+    <img src="https://img.shields.io/badge/GET-SESSION%20ID%20HERE-green?style=for-the-badge&logo=kenya" alt="Get Session 🆔 2" width="230">
   </a>
 </p>
 
