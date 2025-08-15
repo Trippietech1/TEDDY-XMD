@@ -43,8 +43,8 @@
 
 
 <p align="center">
-  <a href="https://lite-deloy.crissvevo.co.tz">
-    <img title="DEPLOY TEDDY-XMD" src="https://img.shields.io/badge/🚀_DEPLOY_ON_PANEL-000000?style=for-the-badge&logo=heroku&logoColor=white&color=FF00FF" width="260" height="50"/>
+  <a href="https://github.com/Teddytech1/TEDDY-XMD/archive/refs/heads/main.zip">
+    <img title="DOWNLOAD ZIP FILE" src="https://img.shields.io/badge/🚀_DEPLOY_ON_PANEL-000000?style=for-the-badge&logo=heroku&logoColor=white&color=FF00FF" width="260" height="50"/>
   </a>
 </p>
 
@@ -53,5 +53,5 @@
 
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=⚡+CRISS+AI+LITE+VERSION;🔥+The+Most+Powerful+WhatsApp+Bot;💻+Crafted+by+Criss+Vevo;🚀+Next-Gen+Ai+Technology;🌈+Fast+⚡+Secure+🔒+Reliable+✅" alt="Typing Animation">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=⚡+TEDDY+XMD+VERSION;🔥+The+Most+Powerful+WhatsApp+Bot;💻+Crafted+by+Teddy+Tech;🚀+Next-Gen+Ai+Technology;🌈+Fast+⚡+Secure+🔒+Reliable+✅" alt="Typing Animation">
 </h1>
