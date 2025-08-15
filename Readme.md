@@ -36,7 +36,7 @@
 
 
 <p align="center">
-  <a href="https://lite-deloy.crissvevo.co.tz">
+  <a href="https://git@github.com:Teddytech1/TEDDY-XMD.git">
     <img title="DEPLOY TEDDY-XMD" src="https://img.shields.io/badge/🚀_DEPLOY_ON_RENDER-000000?style=for-the-badge&logo=heroku&logoColor=white&color=FF00FF" width="260" height="50"/>
   </a>
 </p>
