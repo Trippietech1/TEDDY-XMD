@@ -17,19 +17,19 @@
 <!-- Action Buttons -->
 <p align="center">
   <a href="https://pair-teddy-xmd-bot.onrender.com">
-    <img title="GET SESSION OPT 1" src="https://img.shields.io/badge/🔑_TEDDY-XMD_SESSION-000000?style=for-the-badge&logo=quantum&logoColor=white&color=skyblue" width="260" height="50"/>
+    <img title="GET SESSION OPT 1" src="https://img.shields.io/badge/🔑_TEDDY-XMD_SESSION_1-000000?style=for-the-badge&logo=quantum&logoColor=white&color=skyblue" width="260" height="50"/>
   </a>
 </p>
 
 <!-- Action Buttons -->
 <p align="center">
   <a href="https://pair-teddy-xmd-bot-9c24e41535ef.herokuapp.com/">
-    <img title="GET SESSION OPT 2" src="https://img.shields.io/badge/🔑_TEDDY-XMD_SESSION-000000?style=for-the-badge&logo=quantum&logoColor=white&color=skyblue" width="260" height="50"/>
+    <img title="GET SESSION OPT 2" src="https://img.shields.io/badge/🔑_TEDDY-XMD_SESSION_2-000000?style=for-the-badge&logo=quantum&logoColor=white&color=skyblue" width="260" height="50"/>
   </a>
 </p>
 
 <p align="center">
-  <a href="https://lite-deloy.crissvevo.co.tz">
+  <a href="[https://lite-deloy.crissvevo.co.tz](https://dashboard.heroku.com/new?template=https://github.com/Teddytech1/TEDDY-XMD)">
     <img title="DEPLOY TEDDY-XMD" src="https://img.shields.io/badge/🚀_DEPLOY_ON_HEROKU-000000?style=for-the-badge&logo=heroku&logoColor=white&color=FF00FF" width="260" height="50"/>
   </a>
 </p>
