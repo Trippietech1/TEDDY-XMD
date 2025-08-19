@@ -131,7 +131,7 @@ Authenticate using **one** of the methods below to generate your `Session ID`.
 
 🟡 <b>Teddy xmd site:</b>  
 <a href="https://teddy.web.id" target="_blank">
-  <img src="https://img.shields.io/badge/Teddy-xmd-site-Deploy-6B47FF?style=flat-square&logo=github&logoColor=white" alt="Teddy-xmd site">
+  <img src="https://img.shields.io/badge/Teddy.web-Deploy-6B47FF?style=flat-square&logo=github&logoColor=white" alt="Teddy-xmd-site">
 </a>
 
 </div>
