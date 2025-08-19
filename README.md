@@ -73,7 +73,7 @@ Authenticate using **one** of the methods below to generate your `Session ID`.
 
 #### 🧩 Session App
 
-[![Session App](https://img.shields.io/badge/Session%20App-000000?style=for-the-badge&logo=react&logoColor=white)](https://lucky-xd-pair-1.onrender.com)
+[![Session App](https://img.shields.io/badge/Session%20App-000000?style=for-the-badge&logo=react&logoColor=white)](https://pair-teddy-xmd-bot.onrender.com)
 
 
 
