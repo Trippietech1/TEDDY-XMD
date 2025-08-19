@@ -129,8 +129,8 @@ Authenticate using **one** of the methods below to generate your `Session ID`.
   <img src="https://img.shields.io/badge/Netlify-Deploy-00ADB5?style=flat-square&logo=netlify&logoColor=white" alt="Netlify">
 </a>
 
-🟡 <b>TalkDrove:</b>  
-<a href="https://talkdrove.com" target="_blank">
+🟡 <b>Teddy xmd site:</b>  
+<a href="https://teddy.web.id" target="_blank">
   <img src="https://img.shields.io/badge/TalkDrove-Deploy-6B47FF?style=flat-square&logo=github&logoColor=white" alt="TalkDrove">
 </a>
 
