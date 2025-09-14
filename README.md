@@ -297,11 +297,11 @@ jobs:
 
 ```diff
 + Project Status: Active
-! Version: 1.0.0 Neon Edition
+! Version: 1.2.0 Neon Edition
 # License: APACHE
 ```
 
-<p align="center"> <img src="https://i.imgur.com/LyHic3i.gif" /> </p> <h2 align="center">💫 Thanks to our loyal followers</h2> <p align="center"> <a href="https://github.com/Teddytech1/TEDDY-XMD/stargazers"> <img src="http://reporoster.com/stars/dark/Tomilucky218/Lucky-XD2" alt="Stargazers repo roster for @Teddytech1/TEDDY-XMD"> </a> </p> <p align="center"> <a href="https://github.com/Teddytech1/TEDDY-XMD/network/members"> <img src="http://reporoster.com/forks/dark/Tomilucky218/Lucky-XD2" alt="Forkers repo roster for @Teddytech1/TEDDY-XMD"> </a> </p> 
+<p align="center"> <img src="https://i.imgur.com/LyHic3i.gif" /> </p> <h2 align="center">💫 Thanks to our loyal followers</h2> <p align="center"> <a href="https://github.com/Teddytech1/TEDDY-XMD/stargazers"> <img src="http://reporoster.com/stars/dark/Teddytech1/TEDDY-XMD" alt="Stargazers repo roster for @Teddytech1/TEDDY-XMD"> </a> </p> <p align="center"> <a href="https://github.com/Teddytech1/TEDDY-XMD/network/members"> <img src="http://reporoster.com/forks/dark/Teddytech1/TEDDY-XMD" alt="Forkers repo roster for @Teddytech1/TEDDY-XMD"> </a> </p> 
 
 
 
